@@ -1,0 +1,49 @@
+name: Daily Data Ingestion
+
+on:
+  schedule:
+    # Run at 14:00 UTC (8:00 AM CST) every day
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow committing data back to repo
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Ingestion Pipeline
+        env:
+          # If we had API keys, we'd add them here from secrets
+          # CHICAGODATA_APP_TOKEN: ${{ secrets.CHICAGODATA_APP_TOKEN }}
+          CI: true
+        run: |
+          chmod +x run_ingestion.sh
+          ./run_ingestion.sh
+
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/bronze/
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "DATA: Auto-ingestion [skip ci]"
+            git push
+          fi
