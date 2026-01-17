@@ -80,6 +80,7 @@ The new **Research Interface** (Week 5) provides a comprehensive view of the dat
 3.  **Financial Analysis**: Breakdown of daily vendor spending to track resource allocation.
 4.  **Forecasting**: Visualizes the **LSTM & Linear Regression** models, projecting demand 90 days into the future.
 5.  **Crisis Pulse**: Displays daily cluster classifications (High/Medium/Low Strain) to identify critical operational periods.
+6.  **Data Export**: Provides direct download access to the processed Gold Layer datasets (Shelter, Spend, Clusters).
 
 
 ## Data Outputs (Gold Layer)

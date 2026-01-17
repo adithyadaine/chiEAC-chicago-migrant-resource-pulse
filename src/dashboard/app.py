@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Sidebar Navigation
-mode = st.sidebar.radio("Navigation", ["Overview", "Population Analysis", "Financial Analysis", "Forecasting", "Crisis Pulse"])
+mode = st.sidebar.radio("Navigation", ["Overview", "Population Analysis", "Financial Analysis", "Forecasting", "Crisis Pulse", "Data Export"])
 
 st.title("🏙️ Chicago Migrant Resource Pulse")
 st.markdown("---")
@@ -77,6 +77,7 @@ elif mode == "Forecasting":
     else:
         st.warning("Forecast image not found. Please run the modeling pipeline first.")
 
+
 elif mode == "Crisis Pulse":
     st.header("Crisis Severity Clustering")
     df = load_cluster_data()
@@ -85,4 +86,50 @@ elif mode == "Crisis Pulse":
         st.markdown("**(Visualization of clustering categories to be added)**")
     else:
         st.warning("No clustering data available.")
+
+elif mode == "Data Export":
+    st.header("Data Export")
+    st.markdown("Download the processed Gold Layer datasets for your own analysis.")
+    
+    shelter_df = load_shelter_data()
+    spend_df = load_spend_data()
+    cluster_df = load_cluster_data()
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.subheader("Shelter Population")
+        st.metric("Records", len(shelter_df))
+        if not shelter_df.empty:
+            csv = shelter_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="Download CSV",
+                data=csv,
+                file_name="daily_shelter_stats.csv",
+                mime="text/csv",
+            )
+            
+    with col2:
+        st.subheader("Vendor Spend")
+        st.metric("Records", len(spend_df))
+        if not spend_df.empty:
+            csv = spend_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="Download CSV",
+                data=csv,
+                file_name="daily_vendor_spend.csv",
+                mime="text/csv",
+            )
+            
+    with col3:
+        st.subheader("Crisis Clusters")
+        st.metric("Records", len(cluster_df))
+        if not cluster_df.empty:
+            csv = cluster_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="Download CSV",
+                data=csv,
+                file_name="daily_clusters.csv",
+                mime="text/csv",
+            )
 
