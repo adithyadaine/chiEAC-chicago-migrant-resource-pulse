@@ -39,7 +39,12 @@ def setup_driver():
 
 def scrape_social():
     logger.info("Starting Social Media Scraper (Multi-Instance Nitter)...")
-    driver = setup_driver()
+    try:
+        driver = setup_driver()
+    except Exception as e:
+        logger.error(f"Failed to initialize Chrome Driver: {e}. Ensure Chrome is installed and compatible.")
+        return
+    
     all_posts = []
 
     try:

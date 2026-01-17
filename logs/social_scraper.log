@@ -69,3 +69,439 @@ Stacktrace:
 2026-01-03 18:12:48,633 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
 2026-01-04 09:20:44,780 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
 2026-01-11 15:15:58,162 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 10:28:32,063 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 10:30:28,515 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 10:30:29,424 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000102d77f48 chromedriver + 4226888
+1   chromedriver                        0x0000000102d704f4 chromedriver + 4195572
+2   chromedriver                        0x00000001029b4d68 chromedriver + 281960
+3   chromedriver                        0x00000001029dbc24 chromedriver + 441380
+4   chromedriver                        0x00000001029da150 chromedriver + 434512
+5   chromedriver                        0x0000000102a1793c chromedriver + 686396
+6   chromedriver                        0x0000000102a17164 chromedriver + 684388
+7   chromedriver                        0x00000001029e3f1c chromedriver + 474908
+8   chromedriver                        0x00000001029e4ef4 chromedriver + 478964
+9   chromedriver                        0x0000000102d3959c chromedriver + 3970460
+10  chromedriver                        0x0000000102d3d6f0 chromedriver + 3987184
+11  chromedriver                        0x0000000102d435b4 chromedriver + 4011444
+12  chromedriver                        0x0000000102d3e2fc chromedriver + 3990268
+13  chromedriver                        0x0000000102d161c0 chromedriver + 3826112
+14  chromedriver                        0x0000000102d5a088 chromedriver + 4104328
+15  chromedriver                        0x0000000102d5a1e0 chromedriver + 4104672
+16  chromedriver                        0x0000000102d69f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 13:25:27,600 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 13:25:28,414 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104847f48 chromedriver + 4226888
+1   chromedriver                        0x00000001048404f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104484d68 chromedriver + 281960
+3   chromedriver                        0x00000001044abc24 chromedriver + 441380
+4   chromedriver                        0x00000001044aa150 chromedriver + 434512
+5   chromedriver                        0x00000001044e793c chromedriver + 686396
+6   chromedriver                        0x00000001044e7164 chromedriver + 684388
+7   chromedriver                        0x00000001044b3f1c chromedriver + 474908
+8   chromedriver                        0x00000001044b4ef4 chromedriver + 478964
+9   chromedriver                        0x000000010480959c chromedriver + 3970460
+10  chromedriver                        0x000000010480d6f0 chromedriver + 3987184
+11  chromedriver                        0x00000001048135b4 chromedriver + 4011444
+12  chromedriver                        0x000000010480e2fc chromedriver + 3990268
+13  chromedriver                        0x00000001047e61c0 chromedriver + 3826112
+14  chromedriver                        0x000000010482a088 chromedriver + 4104328
+15  chromedriver                        0x000000010482a1e0 chromedriver + 4104672
+16  chromedriver                        0x0000000104839f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 15:09:21,454 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 15:09:22,731 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104ad3f48 chromedriver + 4226888
+1   chromedriver                        0x0000000104acc4f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104710d68 chromedriver + 281960
+3   chromedriver                        0x0000000104737c24 chromedriver + 441380
+4   chromedriver                        0x0000000104736150 chromedriver + 434512
+5   chromedriver                        0x000000010477393c chromedriver + 686396
+6   chromedriver                        0x0000000104773164 chromedriver + 684388
+7   chromedriver                        0x000000010473ff1c chromedriver + 474908
+8   chromedriver                        0x0000000104740ef4 chromedriver + 478964
+9   chromedriver                        0x0000000104a9559c chromedriver + 3970460
+10  chromedriver                        0x0000000104a996f0 chromedriver + 3987184
+11  chromedriver                        0x0000000104a9f5b4 chromedriver + 4011444
+12  chromedriver                        0x0000000104a9a2fc chromedriver + 3990268
+13  chromedriver                        0x0000000104a721c0 chromedriver + 3826112
+14  chromedriver                        0x0000000104ab6088 chromedriver + 4104328
+15  chromedriver                        0x0000000104ab61e0 chromedriver + 4104672
+16  chromedriver                        0x0000000104ac5f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 15:09:56,599 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 15:09:57,529 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x00000001046abf48 chromedriver + 4226888
+1   chromedriver                        0x00000001046a44f4 chromedriver + 4195572
+2   chromedriver                        0x00000001042e8d68 chromedriver + 281960
+3   chromedriver                        0x000000010430fc24 chromedriver + 441380
+4   chromedriver                        0x000000010430e150 chromedriver + 434512
+5   chromedriver                        0x000000010434b93c chromedriver + 686396
+6   chromedriver                        0x000000010434b164 chromedriver + 684388
+7   chromedriver                        0x0000000104317f1c chromedriver + 474908
+8   chromedriver                        0x0000000104318ef4 chromedriver + 478964
+9   chromedriver                        0x000000010466d59c chromedriver + 3970460
+10  chromedriver                        0x00000001046716f0 chromedriver + 3987184
+11  chromedriver                        0x00000001046775b4 chromedriver + 4011444
+12  chromedriver                        0x00000001046722fc chromedriver + 3990268
+13  chromedriver                        0x000000010464a1c0 chromedriver + 3826112
+14  chromedriver                        0x000000010468e088 chromedriver + 4104328
+15  chromedriver                        0x000000010468e1e0 chromedriver + 4104672
+16  chromedriver                        0x000000010469df28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 15:12:09,309 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 15:12:10,201 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104f0ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f084f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b4cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b73c24 chromedriver + 441380
+4   chromedriver                        0x0000000104b72150 chromedriver + 434512
+5   chromedriver                        0x0000000104baf93c chromedriver + 686396
+6   chromedriver                        0x0000000104baf164 chromedriver + 684388
+7   chromedriver                        0x0000000104b7bf1c chromedriver + 474908
+8   chromedriver                        0x0000000104b7cef4 chromedriver + 478964
+9   chromedriver                        0x0000000104ed159c chromedriver + 3970460
+10  chromedriver                        0x0000000104ed56f0 chromedriver + 3987184
+11  chromedriver                        0x0000000104edb5b4 chromedriver + 4011444
+12  chromedriver                        0x0000000104ed62fc chromedriver + 3990268
+13  chromedriver                        0x0000000104eae1c0 chromedriver + 3826112
+14  chromedriver                        0x0000000104ef2088 chromedriver + 4104328
+15  chromedriver                        0x0000000104ef21e0 chromedriver + 4104672
+16  chromedriver                        0x0000000104f01f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 16:22:15,067 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 16:22:16,533 ERROR Failed to initialize Chrome Driver: Message: unknown error: cannot find Chrome binary
+Stacktrace:
+0   chromedriver                        0x0000000104ec3f48 chromedriver + 4226888
+1   chromedriver                        0x0000000104ebc4f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b00d68 chromedriver + 281960
+3   chromedriver                        0x0000000104b27c24 chromedriver + 441380
+4   chromedriver                        0x0000000104b26150 chromedriver + 434512
+5   chromedriver                        0x0000000104b6393c chromedriver + 686396
+6   chromedriver                        0x0000000104b63164 chromedriver + 684388
+7   chromedriver                        0x0000000104b2ff1c chromedriver + 474908
+8   chromedriver                        0x0000000104b30ef4 chromedriver + 478964
+9   chromedriver                        0x0000000104e8559c chromedriver + 3970460
+10  chromedriver                        0x0000000104e896f0 chromedriver + 3987184
+11  chromedriver                        0x0000000104e8f5b4 chromedriver + 4011444
+12  chromedriver                        0x0000000104e8a2fc chromedriver + 3990268
+13  chromedriver                        0x0000000104e621c0 chromedriver + 3826112
+14  chromedriver                        0x0000000104ea6088 chromedriver + 4104328
+15  chromedriver                        0x0000000104ea61e0 chromedriver + 4104672
+16  chromedriver                        0x0000000104eb5f28 chromedriver + 4169512
+17  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+. Ensure Chrome is installed and compatible.
+2026-01-13 17:00:33,997 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 17:00:42,872 INFO Trying https://nitter.privacydev.net for @ChiHomeless...
+2026-01-13 17:00:43,141 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a227b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000104a14f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000104a16a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000104a153e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000104a14b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000104a148bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000104a12480 chromedriver + 222336
+10  chromedriver                        0x0000000104a12f4c chromedriver + 225100
+11  chromedriver                        0x0000000104a2dae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000104ab3628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:00:43,141 INFO Trying https://nitter.poast.org for @ChiHomeless...
+2026-01-13 17:00:53,782 WARNING Failed on https://nitter.poast.org: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a73a10 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375076
+4   chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+5   chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+6   chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+7   chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+8   chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+9   chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+10  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+11  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+12  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+13  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+14  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:00:53,783 INFO Trying https://nitter.bird.gardens for @ChiHomeless...
+2026-01-13 17:00:53,985 WARNING Failed on https://nitter.bird.gardens: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a227b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000104a14f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000104a16a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000104a153e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000104a14b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000104a148bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000104a12480 chromedriver + 222336
+10  chromedriver                        0x0000000104a12f4c chromedriver + 225100
+11  chromedriver                        0x0000000104a2dae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000104ab3628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:00:53,985 INFO Trying https://nitter.moomoo.me for @ChiHomeless...
+2026-01-13 17:00:54,064 WARNING Failed on https://nitter.moomoo.me: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a227b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000104a14f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000104a16a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000104a153e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000104a14b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000104a148bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000104a12480 chromedriver + 222336
+10  chromedriver                        0x0000000104a12f4c chromedriver + 225100
+11  chromedriver                        0x0000000104a2dae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000104ab3628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:00:54,065 INFO Trying https://nitter.cz for @ChiHomeless...
+2026-01-13 17:01:06,263 WARNING Failed on https://nitter.cz: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a73a10 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 375076
+4   chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+5   chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+6   chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+7   chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+8   chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+9   chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+10  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+11  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+12  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+13  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+14  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:01:06,264 ERROR Could not scrape @ChiHomeless from any instance.
+2026-01-13 17:01:06,264 INFO Trying https://nitter.privacydev.net for @FoodDepository...
+2026-01-13 17:01:06,460 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000104f4d098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000104f45370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000104a2a5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000104a227b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000104a14f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000104a16a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000104a153e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000104a14b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000104a148bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000104a12480 chromedriver + 222336
+10  chromedriver                        0x0000000104a12f4c chromedriver + 225100
+11  chromedriver                        0x0000000104a2dae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000104ab3628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000104ab2b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000104a67d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x0000000104f0c89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x0000000104f0ffe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000104ef1608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x0000000104f10864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x0000000104ee16f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x0000000104f33fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x0000000104f34150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000104f44fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:01:06,460 INFO Trying https://nitter.poast.org for @FoodDepository...
+2026-01-13 17:01:09,202 INFO Success! Found 20 tweets on https://nitter.poast.org
+2026-01-13 17:01:09,499 INFO Saved 15 tweets to data/bronze/social/nitter_batch_20260113170109.csv
+2026-01-13 17:11:58,776 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 17:12:00,366 INFO Trying https://nitter.privacydev.net for @ChiHomeless...
+2026-01-13 17:12:00,524 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x00000001032ed098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x00000001032e5370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000102dca5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000102dc27b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000102db4f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000102db6a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000102db53e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000102db4b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000102db48bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000102db2480 chromedriver + 222336
+10  chromedriver                        0x0000000102db2f4c chromedriver + 225100
+11  chromedriver                        0x0000000102dcdae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000102e53628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000102e52b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000102e07d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x00000001032ac89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x00000001032affe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000103291608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x00000001032b0864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x00000001032816f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x00000001032d3fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x00000001032d4150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x00000001032e4fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:12:00,524 INFO Trying https://nitter.poast.org for @ChiHomeless...
+2026-01-13 17:12:06,178 INFO Success! Found 19 tweets on https://nitter.poast.org
+2026-01-13 17:12:06,365 INFO Trying https://nitter.privacydev.net for @FoodDepository...
+2026-01-13 17:12:06,486 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x00000001032ed098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x00000001032e5370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000102dca5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000102dc27b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000102db4f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000102db6a28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000102db53e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000102db4b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000102db48bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000102db2480 chromedriver + 222336
+10  chromedriver                        0x0000000102db2f4c chromedriver + 225100
+11  chromedriver                        0x0000000102dcdae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000102e53628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000102e52b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x0000000102e07d40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x00000001032ac89c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x00000001032affe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x0000000103291608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x00000001032b0864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x00000001032816f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x00000001032d3fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x00000001032d4150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x00000001032e4fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:12:06,486 INFO Trying https://nitter.poast.org for @FoodDepository...
+2026-01-13 17:12:08,484 INFO Success! Found 20 tweets on https://nitter.poast.org
+2026-01-13 17:12:08,742 INFO Saved 30 tweets to data/bronze/social/nitter_batch_20260113171208.csv
+2026-01-13 17:13:46,705 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-01-13 17:13:48,258 INFO Trying https://nitter.privacydev.net for @ChiHomeless...
+2026-01-13 17:13:48,401 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000101511098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000101509370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000100fee5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000100fe67b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000100fd8f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100fdaa28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000100fd93e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100fd8b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000100fd88bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000100fd6480 chromedriver + 222336
+10  chromedriver                        0x0000000100fd6f4c chromedriver + 225100
+11  chromedriver                        0x0000000100ff1ae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000101077628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000101076b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x000000010102bd40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x00000001014d089c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x00000001014d3fe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x00000001014b5608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x00000001014d4864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x00000001014a56f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x00000001014f7fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x00000001014f8150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000101508fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:13:48,402 INFO Trying https://nitter.poast.org for @ChiHomeless...
+2026-01-13 17:13:53,835 INFO Success! Found 19 tweets on https://nitter.poast.org
+2026-01-13 17:13:54,021 INFO Trying https://nitter.privacydev.net for @FoodDepository...
+2026-01-13 17:13:54,134 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.60)
+Stacktrace:
+0   chromedriver                        0x0000000101511098 cxxbridge1$str$ptr + 3091260
+1   chromedriver                        0x0000000101509370 cxxbridge1$str$ptr + 3059220
+2   chromedriver                        0x0000000100fee5ec _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x0000000100fe67b0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000100fd8f7c cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100fdaa28 cxxbridge1$string$len + 11980
+6   chromedriver                        0x0000000100fd93e8 cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100fd8b90 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000100fd88bc cxxbridge1$string$len + 3424
+9   chromedriver                        0x0000000100fd6480 chromedriver + 222336
+10  chromedriver                        0x0000000100fd6f4c chromedriver + 225100
+11  chromedriver                        0x0000000100ff1ae0 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x0000000101077628 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636220
+13  chromedriver                        0x0000000101076b3c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 633424
+14  chromedriver                        0x000000010102bd40 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326740
+15  chromedriver                        0x00000001014d089c cxxbridge1$str$ptr + 2827072
+16  chromedriver                        0x00000001014d3fe0 cxxbridge1$str$ptr + 2841220
+17  chromedriver                        0x00000001014b5608 cxxbridge1$str$ptr + 2715820
+18  chromedriver                        0x00000001014d4864 cxxbridge1$str$ptr + 2843400
+19  chromedriver                        0x00000001014a56f8 cxxbridge1$str$ptr + 2650524
+20  chromedriver                        0x00000001014f7fd4 cxxbridge1$str$ptr + 2988664
+21  chromedriver                        0x00000001014f8150 cxxbridge1$str$ptr + 2989044
+22  chromedriver                        0x0000000101508fc8 cxxbridge1$str$ptr + 3058284
+23  libsystem_pthread.dylib             0x0000000185baec08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000185ba9ba8 thread_start + 8
+
+2026-01-13 17:13:54,134 INFO Trying https://nitter.poast.org for @FoodDepository...
+2026-01-13 17:13:55,124 INFO Success! Found 6 tweets on https://nitter.poast.org
+2026-01-13 17:13:55,274 INFO Saved 21 tweets to data/bronze/social/nitter_batch_20260113171355.csv
