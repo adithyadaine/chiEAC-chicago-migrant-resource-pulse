@@ -1,0 +1,1787 @@
+[
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1715558400000,
+    "total_staying_in_shelter":951,
+    "record_id":"AIC_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Daley College",
+    "date":1715558400000,
+    "total_staying_in_shelter":115,
+    "record_id":"Daley_College_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1715558400000,
+    "total_staying_in_shelter":741,
+    "record_id":"Elston_Shelter_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1715558400000,
+    "total_staying_in_shelter":639,
+    "record_id":"Halsted_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1715558400000,
+    "total_staying_in_shelter":888,
+    "record_id":"Inn_of_Chicago_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1715558400000,
+    "total_staying_in_shelter":383,
+    "record_id":"Lakeshore_Hotel_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1715558400000,
+    "total_staying_in_shelter":165,
+    "record_id":"Little_Village_Pulaski_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1715558400000,
+    "total_staying_in_shelter":384,
+    "record_id":"MWRD_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1715558400000,
+    "total_staying_in_shelter":125,
+    "record_id":"North_Western_Shelter_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1715558400000,
+    "total_staying_in_shelter":890,
+    "record_id":"Ogden_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1715558400000,
+    "total_staying_in_shelter":107,
+    "record_id":"Parthenon_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1715558400000,
+    "total_staying_in_shelter":909,
+    "record_id":"Social_Club_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1715558400000,
+    "total_staying_in_shelter":211,
+    "record_id":"Super_8_Hotel_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1715558400000,
+    "total_staying_in_shelter":772,
+    "record_id":"Walnut_Shelter_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1715558400000,
+    "total_staying_in_shelter":213,
+    "record_id":"West_Lake_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1715558400000,
+    "total_staying_in_shelter":190,
+    "record_id":"YWLA_2024-05-13",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1716163200000,
+    "total_staying_in_shelter":977,
+    "record_id":"AIC_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Daley College",
+    "date":1716163200000,
+    "total_staying_in_shelter":114,
+    "record_id":"Daley_College_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1716163200000,
+    "total_staying_in_shelter":711,
+    "record_id":"Elston_Shelter_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1716163200000,
+    "total_staying_in_shelter":581,
+    "record_id":"Halsted_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1716163200000,
+    "total_staying_in_shelter":839,
+    "record_id":"Inn_of_Chicago_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1716163200000,
+    "total_staying_in_shelter":366,
+    "record_id":"Lakeshore_Hotel_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1716163200000,
+    "total_staying_in_shelter":198,
+    "record_id":"Little_Village_Pulaski_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1716163200000,
+    "total_staying_in_shelter":381,
+    "record_id":"MWRD_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1716163200000,
+    "total_staying_in_shelter":128,
+    "record_id":"North_Western_Shelter_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1716163200000,
+    "total_staying_in_shelter":827,
+    "record_id":"Ogden_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1716163200000,
+    "total_staying_in_shelter":108,
+    "record_id":"Parthenon_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1716163200000,
+    "total_staying_in_shelter":912,
+    "record_id":"Social_Club_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1716163200000,
+    "total_staying_in_shelter":195,
+    "record_id":"Super_8_Hotel_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1716163200000,
+    "total_staying_in_shelter":757,
+    "record_id":"Walnut_Shelter_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1716163200000,
+    "total_staying_in_shelter":195,
+    "record_id":"West_Lake_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1716163200000,
+    "total_staying_in_shelter":192,
+    "record_id":"YWLA_2024-05-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1717286400000,
+    "total_staying_in_shelter":1003,
+    "record_id":"AIC_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Daley College",
+    "date":1717286400000,
+    "total_staying_in_shelter":99,
+    "record_id":"Daley_College_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1717286400000,
+    "total_staying_in_shelter":813,
+    "record_id":"Elston_Shelter_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1717286400000,
+    "total_staying_in_shelter":466,
+    "record_id":"Halsted_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1717286400000,
+    "total_staying_in_shelter":797,
+    "record_id":"Inn_of_Chicago_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1717286400000,
+    "total_staying_in_shelter":331,
+    "record_id":"Lakeshore_Hotel_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1717286400000,
+    "total_staying_in_shelter":158,
+    "record_id":"Little_Village_Pulaski_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1717286400000,
+    "total_staying_in_shelter":323,
+    "record_id":"MWRD_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1717286400000,
+    "total_staying_in_shelter":119,
+    "record_id":"North_Western_Shelter_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1717286400000,
+    "total_staying_in_shelter":769,
+    "record_id":"Ogden_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1717286400000,
+    "total_staying_in_shelter":102,
+    "record_id":"Parthenon_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1717286400000,
+    "total_staying_in_shelter":724,
+    "record_id":"Social_Club_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1717286400000,
+    "total_staying_in_shelter":126,
+    "record_id":"South_DuSable_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1717286400000,
+    "total_staying_in_shelter":175,
+    "record_id":"Super_8_Hotel_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1717286400000,
+    "total_staying_in_shelter":693,
+    "record_id":"Walnut_Shelter_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1717286400000,
+    "total_staying_in_shelter":223,
+    "record_id":"West_Lake_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1717286400000,
+    "total_staying_in_shelter":140,
+    "record_id":"YWLA_2024-06-02",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1718496000000,
+    "total_staying_in_shelter":844,
+    "record_id":"AIC_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Daley College",
+    "date":1718496000000,
+    "total_staying_in_shelter":101,
+    "record_id":"Daley_College_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1718496000000,
+    "total_staying_in_shelter":741,
+    "record_id":"Elston_Shelter_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1718496000000,
+    "total_staying_in_shelter":439,
+    "record_id":"Halsted_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1718496000000,
+    "total_staying_in_shelter":714,
+    "record_id":"Inn_of_Chicago_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1718496000000,
+    "total_staying_in_shelter":397,
+    "record_id":"Lakeshore_Hotel_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1718496000000,
+    "total_staying_in_shelter":140,
+    "record_id":"Little_Village_Pulaski_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1718496000000,
+    "total_staying_in_shelter":326,
+    "record_id":"MWRD_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1718496000000,
+    "total_staying_in_shelter":106,
+    "record_id":"North_Western_Shelter_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1718496000000,
+    "total_staying_in_shelter":707,
+    "record_id":"Ogden_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1718496000000,
+    "total_staying_in_shelter":123,
+    "record_id":"Parthenon_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1718496000000,
+    "total_staying_in_shelter":468,
+    "record_id":"Social_Club_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1718496000000,
+    "total_staying_in_shelter":210,
+    "record_id":"South_DuSable_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1718496000000,
+    "total_staying_in_shelter":160,
+    "record_id":"Super_8_Hotel_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1718496000000,
+    "total_staying_in_shelter":606,
+    "record_id":"Walnut_Shelter_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1718496000000,
+    "total_staying_in_shelter":274,
+    "record_id":"West_Lake_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1718496000000,
+    "total_staying_in_shelter":218,
+    "record_id":"YWLA_2024-06-16",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1719705600000,
+    "total_staying_in_shelter":702,
+    "record_id":"AIC_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Daley College",
+    "date":1719705600000,
+    "total_staying_in_shelter":39,
+    "record_id":"Daley_College_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1719705600000,
+    "total_staying_in_shelter":803,
+    "record_id":"Elston_Shelter_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1719705600000,
+    "total_staying_in_shelter":462,
+    "record_id":"Halsted_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1719705600000,
+    "total_staying_in_shelter":719,
+    "record_id":"Inn_of_Chicago_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1719705600000,
+    "total_staying_in_shelter":368,
+    "record_id":"Lakeshore_Hotel_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1719705600000,
+    "total_staying_in_shelter":156,
+    "record_id":"Little_Village_Pulaski_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1719705600000,
+    "total_staying_in_shelter":296,
+    "record_id":"MWRD_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1719705600000,
+    "total_staying_in_shelter":94,
+    "record_id":"North_Western_Shelter_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1719705600000,
+    "total_staying_in_shelter":526,
+    "record_id":"Ogden_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1719705600000,
+    "total_staying_in_shelter":120,
+    "record_id":"Parthenon_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1719705600000,
+    "total_staying_in_shelter":318,
+    "record_id":"Social_Club_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1719705600000,
+    "total_staying_in_shelter":241,
+    "record_id":"South_DuSable_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1719705600000,
+    "total_staying_in_shelter":153,
+    "record_id":"Super_8_Hotel_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1719705600000,
+    "total_staying_in_shelter":548,
+    "record_id":"Walnut_Shelter_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1719705600000,
+    "total_staying_in_shelter":266,
+    "record_id":"West_Lake_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1719705600000,
+    "total_staying_in_shelter":212,
+    "record_id":"YWLA_2024-06-30",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1720915200000,
+    "total_staying_in_shelter":633,
+    "record_id":"AIC_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1720915200000,
+    "total_staying_in_shelter":728,
+    "record_id":"Elston_Shelter_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1720915200000,
+    "total_staying_in_shelter":490,
+    "record_id":"Halsted_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1720915200000,
+    "total_staying_in_shelter":767,
+    "record_id":"Inn_of_Chicago_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1720915200000,
+    "total_staying_in_shelter":398,
+    "record_id":"Lakeshore_Hotel_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1720915200000,
+    "total_staying_in_shelter":124,
+    "record_id":"Little_Village_Pulaski_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1720915200000,
+    "total_staying_in_shelter":23,
+    "record_id":"Midway_Shelter_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1720915200000,
+    "total_staying_in_shelter":261,
+    "record_id":"MWRD_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1720915200000,
+    "total_staying_in_shelter":77,
+    "record_id":"North_Western_Shelter_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1720915200000,
+    "total_staying_in_shelter":421,
+    "record_id":"Ogden_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1720915200000,
+    "total_staying_in_shelter":148,
+    "record_id":"Parthenon_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1720915200000,
+    "total_staying_in_shelter":298,
+    "record_id":"Social_Club_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1720915200000,
+    "total_staying_in_shelter":231,
+    "record_id":"South_DuSable_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1720915200000,
+    "total_staying_in_shelter":136,
+    "record_id":"Super_8_Hotel_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1720915200000,
+    "total_staying_in_shelter":489,
+    "record_id":"Walnut_Shelter_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1720915200000,
+    "total_staying_in_shelter":279,
+    "record_id":"West_Lake_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1720915200000,
+    "total_staying_in_shelter":216,
+    "record_id":"YWLA_2024-07-14",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1722124800000,
+    "total_staying_in_shelter":512,
+    "record_id":"AIC_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1722124800000,
+    "total_staying_in_shelter":727,
+    "record_id":"Elston_Shelter_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1722124800000,
+    "total_staying_in_shelter":533,
+    "record_id":"Halsted_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1722124800000,
+    "total_staying_in_shelter":744,
+    "record_id":"Inn_of_Chicago_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1722124800000,
+    "total_staying_in_shelter":381,
+    "record_id":"Lakeshore_Hotel_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1722124800000,
+    "total_staying_in_shelter":118,
+    "record_id":"Little_Village_Pulaski_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1722124800000,
+    "total_staying_in_shelter":112,
+    "record_id":"Midway_Shelter_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1722124800000,
+    "total_staying_in_shelter":265,
+    "record_id":"MWRD_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1722124800000,
+    "total_staying_in_shelter":73,
+    "record_id":"North_Western_Shelter_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1722124800000,
+    "total_staying_in_shelter":397,
+    "record_id":"Ogden_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1722124800000,
+    "total_staying_in_shelter":156,
+    "record_id":"Parthenon_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1722124800000,
+    "total_staying_in_shelter":269,
+    "record_id":"Social_Club_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1722124800000,
+    "total_staying_in_shelter":217,
+    "record_id":"South_DuSable_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1722124800000,
+    "total_staying_in_shelter":141,
+    "record_id":"Super_8_Hotel_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1722124800000,
+    "total_staying_in_shelter":449,
+    "record_id":"Walnut_Shelter_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1722124800000,
+    "total_staying_in_shelter":269,
+    "record_id":"West_Lake_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1722124800000,
+    "total_staying_in_shelter":230,
+    "record_id":"YWLA_2024-07-28",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1723334400000,
+    "total_staying_in_shelter":473,
+    "record_id":"AIC_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1723334400000,
+    "total_staying_in_shelter":699,
+    "record_id":"Elston_Shelter_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1723334400000,
+    "total_staying_in_shelter":522,
+    "record_id":"Halsted_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1723334400000,
+    "total_staying_in_shelter":739,
+    "record_id":"Inn_of_Chicago_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1723334400000,
+    "total_staying_in_shelter":382,
+    "record_id":"Lakeshore_Hotel_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1723334400000,
+    "total_staying_in_shelter":133,
+    "record_id":"Little_Village_Pulaski_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1723334400000,
+    "total_staying_in_shelter":106,
+    "record_id":"Midway_Shelter_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1723334400000,
+    "total_staying_in_shelter":253,
+    "record_id":"MWRD_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1723334400000,
+    "total_staying_in_shelter":121,
+    "record_id":"North_Western_Shelter_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1723334400000,
+    "total_staying_in_shelter":334,
+    "record_id":"Ogden_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1723334400000,
+    "total_staying_in_shelter":183,
+    "record_id":"Parthenon_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1723334400000,
+    "total_staying_in_shelter":248,
+    "record_id":"Social_Club_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1723334400000,
+    "total_staying_in_shelter":278,
+    "record_id":"South_DuSable_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1723334400000,
+    "total_staying_in_shelter":150,
+    "record_id":"Super_8_Hotel_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1723334400000,
+    "total_staying_in_shelter":417,
+    "record_id":"Walnut_Shelter_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1723334400000,
+    "total_staying_in_shelter":293,
+    "record_id":"West_Lake_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1723334400000,
+    "total_staying_in_shelter":237,
+    "record_id":"YWLA_2024-08-11",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1724544000000,
+    "total_staying_in_shelter":424,
+    "record_id":"AIC_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1724544000000,
+    "total_staying_in_shelter":722,
+    "record_id":"Elston_Shelter_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1724544000000,
+    "total_staying_in_shelter":537,
+    "record_id":"Halsted_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1724544000000,
+    "total_staying_in_shelter":705,
+    "record_id":"Inn_of_Chicago_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1724544000000,
+    "total_staying_in_shelter":387,
+    "record_id":"Lakeshore_Hotel_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1724544000000,
+    "total_staying_in_shelter":139,
+    "record_id":"Little_Village_Pulaski_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1724544000000,
+    "total_staying_in_shelter":138,
+    "record_id":"Midway_Shelter_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1724544000000,
+    "total_staying_in_shelter":219,
+    "record_id":"MWRD_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1724544000000,
+    "total_staying_in_shelter":138,
+    "record_id":"North_Western_Shelter_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1724544000000,
+    "total_staying_in_shelter":329,
+    "record_id":"Ogden_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1724544000000,
+    "total_staying_in_shelter":180,
+    "record_id":"Parthenon_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1724544000000,
+    "total_staying_in_shelter":244,
+    "record_id":"Social_Club_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1724544000000,
+    "total_staying_in_shelter":254,
+    "record_id":"South_DuSable_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1724544000000,
+    "total_staying_in_shelter":144,
+    "record_id":"Super_8_Hotel_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1724544000000,
+    "total_staying_in_shelter":378,
+    "record_id":"Walnut_Shelter_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1724544000000,
+    "total_staying_in_shelter":268,
+    "record_id":"West_Lake_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1724544000000,
+    "total_staying_in_shelter":233,
+    "record_id":"YWLA_2024-08-25",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1725753600000,
+    "total_staying_in_shelter":398,
+    "record_id":"AIC_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1725753600000,
+    "total_staying_in_shelter":790,
+    "record_id":"Elston_Shelter_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1725753600000,
+    "total_staying_in_shelter":534,
+    "record_id":"Halsted_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1725753600000,
+    "total_staying_in_shelter":755,
+    "record_id":"Inn_of_Chicago_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1725753600000,
+    "total_staying_in_shelter":376,
+    "record_id":"Lakeshore_Hotel_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1725753600000,
+    "total_staying_in_shelter":152,
+    "record_id":"Little_Village_Pulaski_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1725753600000,
+    "total_staying_in_shelter":156,
+    "record_id":"Midway_Shelter_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1725753600000,
+    "total_staying_in_shelter":203,
+    "record_id":"MWRD_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1725753600000,
+    "total_staying_in_shelter":176,
+    "record_id":"North_Western_Shelter_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1725753600000,
+    "total_staying_in_shelter":313,
+    "record_id":"Ogden_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1725753600000,
+    "total_staying_in_shelter":184,
+    "record_id":"Parthenon_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1725753600000,
+    "total_staying_in_shelter":215,
+    "record_id":"Social_Club_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1725753600000,
+    "total_staying_in_shelter":240,
+    "record_id":"South_DuSable_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1725753600000,
+    "total_staying_in_shelter":134,
+    "record_id":"Super_8_Hotel_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1725753600000,
+    "total_staying_in_shelter":313,
+    "record_id":"Walnut_Shelter_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1725753600000,
+    "total_staying_in_shelter":292,
+    "record_id":"West_Lake_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1725753600000,
+    "total_staying_in_shelter":204,
+    "record_id":"YWLA_2024-09-08",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1726963200000,
+    "total_staying_in_shelter":400,
+    "record_id":"AIC_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1726963200000,
+    "total_staying_in_shelter":828,
+    "record_id":"Elston_Shelter_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Halsted",
+    "date":1726963200000,
+    "total_staying_in_shelter":166,
+    "record_id":"Halsted_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1726963200000,
+    "total_staying_in_shelter":826,
+    "record_id":"Inn_of_Chicago_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1726963200000,
+    "total_staying_in_shelter":301,
+    "record_id":"Lakeshore_Hotel_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1726963200000,
+    "total_staying_in_shelter":146,
+    "record_id":"Little_Village_Pulaski_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1726963200000,
+    "total_staying_in_shelter":234,
+    "record_id":"Midway_Shelter_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1726963200000,
+    "total_staying_in_shelter":349,
+    "record_id":"MWRD_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1726963200000,
+    "total_staying_in_shelter":176,
+    "record_id":"North_Western_Shelter_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Ogden",
+    "date":1726963200000,
+    "total_staying_in_shelter":0,
+    "record_id":"Ogden_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1726963200000,
+    "total_staying_in_shelter":181,
+    "record_id":"Parthenon_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1726963200000,
+    "total_staying_in_shelter":219,
+    "record_id":"Social_Club_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1726963200000,
+    "total_staying_in_shelter":247,
+    "record_id":"South_DuSable_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1726963200000,
+    "total_staying_in_shelter":222,
+    "record_id":"Super_8_Hotel_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1726963200000,
+    "total_staying_in_shelter":572,
+    "record_id":"Walnut_Shelter_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1726963200000,
+    "total_staying_in_shelter":287,
+    "record_id":"West_Lake_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1726963200000,
+    "total_staying_in_shelter":229,
+    "record_id":"YWLA_2024-09-22",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1728172800000,
+    "total_staying_in_shelter":484,
+    "record_id":"AIC_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1728172800000,
+    "total_staying_in_shelter":785,
+    "record_id":"Elston_Shelter_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1728172800000,
+    "total_staying_in_shelter":915,
+    "record_id":"Inn_of_Chicago_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Lakeshore Hotel",
+    "date":1728172800000,
+    "total_staying_in_shelter":201,
+    "record_id":"Lakeshore_Hotel_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1728172800000,
+    "total_staying_in_shelter":137,
+    "record_id":"Little_Village_Pulaski_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1728172800000,
+    "total_staying_in_shelter":267,
+    "record_id":"Midway_Shelter_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1728172800000,
+    "total_staying_in_shelter":318,
+    "record_id":"MWRD_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1728172800000,
+    "total_staying_in_shelter":165,
+    "record_id":"North_Western_Shelter_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1728172800000,
+    "total_staying_in_shelter":179,
+    "record_id":"Parthenon_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Social Club",
+    "date":1728172800000,
+    "total_staying_in_shelter":218,
+    "record_id":"Social_Club_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1728172800000,
+    "total_staying_in_shelter":247,
+    "record_id":"South_DuSable_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1728172800000,
+    "total_staying_in_shelter":222,
+    "record_id":"Super_8_Hotel_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1728172800000,
+    "total_staying_in_shelter":568,
+    "record_id":"Walnut_Shelter_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1728172800000,
+    "total_staying_in_shelter":288,
+    "record_id":"West_Lake_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1728172800000,
+    "total_staying_in_shelter":228,
+    "record_id":"YWLA_2024-10-06",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1729382400000,
+    "total_staying_in_shelter":551,
+    "record_id":"AIC_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1729382400000,
+    "total_staying_in_shelter":850,
+    "record_id":"Elston_Shelter_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1729382400000,
+    "total_staying_in_shelter":925,
+    "record_id":"Inn_of_Chicago_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Little Village Pulaski",
+    "date":1729382400000,
+    "total_staying_in_shelter":77,
+    "record_id":"Little_Village_Pulaski_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1729382400000,
+    "total_staying_in_shelter":232,
+    "record_id":"Midway_Shelter_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1729382400000,
+    "total_staying_in_shelter":362,
+    "record_id":"MWRD_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1729382400000,
+    "total_staying_in_shelter":153,
+    "record_id":"North_Western_Shelter_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1729382400000,
+    "total_staying_in_shelter":171,
+    "record_id":"Parthenon_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1729382400000,
+    "total_staying_in_shelter":357,
+    "record_id":"South_DuSable_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1729382400000,
+    "total_staying_in_shelter":223,
+    "record_id":"Super_8_Hotel_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1729382400000,
+    "total_staying_in_shelter":555,
+    "record_id":"Walnut_Shelter_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1729382400000,
+    "total_staying_in_shelter":288,
+    "record_id":"West_Lake_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1729382400000,
+    "total_staying_in_shelter":245,
+    "record_id":"YWLA_2024-10-20",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1730592000000,
+    "total_staying_in_shelter":619,
+    "record_id":"AIC_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1730592000000,
+    "total_staying_in_shelter":798,
+    "record_id":"Elston_Shelter_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Inn of Chicago",
+    "date":1730592000000,
+    "total_staying_in_shelter":658,
+    "record_id":"Inn_of_Chicago_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1730592000000,
+    "total_staying_in_shelter":320,
+    "record_id":"Midway_Shelter_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1730592000000,
+    "total_staying_in_shelter":427,
+    "record_id":"MWRD_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1731801600000,
+    "total_staying_in_shelter":672,
+    "record_id":"AIC_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"North Western Shelter",
+    "date":1730592000000,
+    "total_staying_in_shelter":150,
+    "record_id":"North_Western_Shelter_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1730592000000,
+    "total_staying_in_shelter":180,
+    "record_id":"Parthenon_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1730592000000,
+    "total_staying_in_shelter":347,
+    "record_id":"South_DuSable_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1730592000000,
+    "total_staying_in_shelter":226,
+    "record_id":"Super_8_Hotel_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1730592000000,
+    "total_staying_in_shelter":584,
+    "record_id":"Walnut_Shelter_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1730592000000,
+    "total_staying_in_shelter":283,
+    "record_id":"West_Lake_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1730592000000,
+    "total_staying_in_shelter":256,
+    "record_id":"YWLA_2024-11-03",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1733011200000,
+    "total_staying_in_shelter":814,
+    "record_id":"AIC_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1733011200000,
+    "total_staying_in_shelter":404,
+    "record_id":"Elston_Shelter_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1733011200000,
+    "total_staying_in_shelter":635,
+    "record_id":"Midway_Shelter_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1733011200000,
+    "total_staying_in_shelter":456,
+    "record_id":"MWRD_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1733011200000,
+    "total_staying_in_shelter":101,
+    "record_id":"Parthenon_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1733011200000,
+    "total_staying_in_shelter":541,
+    "record_id":"South_DuSable_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1733011200000,
+    "total_staying_in_shelter":119,
+    "record_id":"West_Lake_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1733011200000,
+    "total_staying_in_shelter":193,
+    "record_id":"YWLA_2024-12-01",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1734220800000,
+    "total_staying_in_shelter":641,
+    "record_id":"AIC_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1734220800000,
+    "total_staying_in_shelter":163,
+    "record_id":"Elston_Shelter_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1734220800000,
+    "total_staying_in_shelter":539,
+    "record_id":"Midway_Shelter_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1734220800000,
+    "total_staying_in_shelter":436,
+    "record_id":"MWRD_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1734220800000,
+    "total_staying_in_shelter":497,
+    "record_id":"South_DuSable_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1734220800000,
+    "total_staying_in_shelter":179,
+    "record_id":"YWLA_2024-12-15",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1735430400000,
+    "total_staying_in_shelter":548,
+    "record_id":"AIC_2024-12-29",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1735430400000,
+    "total_staying_in_shelter":416,
+    "record_id":"MWRD_2024-12-29",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1735430400000,
+    "total_staying_in_shelter":233,
+    "record_id":"YWLA_2024-12-29",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"AIC",
+    "date":1735603200000,
+    "total_staying_in_shelter":536,
+    "record_id":"AIC_2024-12-31",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1735603200000,
+    "total_staying_in_shelter":419,
+    "record_id":"MWRD_2024-12-31",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1735603200000,
+    "total_staying_in_shelter":256,
+    "record_id":"YWLA_2024-12-31",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Elston Shelter",
+    "date":1731801600000,
+    "total_staying_in_shelter":594,
+    "record_id":"Elston_Shelter_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Midway Shelter",
+    "date":1731801600000,
+    "total_staying_in_shelter":505,
+    "record_id":"Midway_Shelter_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"MWRD",
+    "date":1731801600000,
+    "total_staying_in_shelter":447,
+    "record_id":"MWRD_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Parthenon",
+    "date":1731801600000,
+    "total_staying_in_shelter":158,
+    "record_id":"Parthenon_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"South DuSable",
+    "date":1731801600000,
+    "total_staying_in_shelter":490,
+    "record_id":"South_DuSable_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Super 8 Hotel",
+    "date":1731801600000,
+    "total_staying_in_shelter":162,
+    "record_id":"Super_8_Hotel_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"Walnut Shelter",
+    "date":1731801600000,
+    "total_staying_in_shelter":520,
+    "record_id":"Walnut_Shelter_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"West Lake",
+    "date":1731801600000,
+    "total_staying_in_shelter":215,
+    "record_id":"West_Lake_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  },
+  {
+    "emergency_temporary_shelter":"YWLA",
+    "date":1731801600000,
+    "total_staying_in_shelter":252,
+    "record_id":"YWLA_2024-11-17",
+    "ingested_at":"2026-01-17 14:10:08"
+  }
+]
