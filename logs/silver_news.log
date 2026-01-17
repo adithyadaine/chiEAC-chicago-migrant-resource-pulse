@@ -12,3 +12,43 @@
 2026-01-11 15:16:03,482 INFO Total records before cleaning: 60
 2026-01-11 15:16:03,491 INFO Deduplication complete: 60 -> 10 records
 2026-01-11 15:16:03,506 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 10:28:43,755 INFO Found 30 news files. Consolidating...
+2026-01-13 10:28:43,767 INFO Total records before cleaning: 300
+2026-01-13 10:28:43,804 INFO Deduplication complete: 300 -> 10 records
+2026-01-13 10:28:43,820 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 10:30:40,659 INFO Found 31 news files. Consolidating...
+2026-01-13 10:30:40,672 INFO Total records before cleaning: 310
+2026-01-13 10:30:40,710 INFO Deduplication complete: 310 -> 10 records
+2026-01-13 10:30:40,728 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 13:25:40,523 INFO Found 32 news files. Consolidating...
+2026-01-13 13:25:40,536 INFO Total records before cleaning: 320
+2026-01-13 13:25:40,575 INFO Deduplication complete: 320 -> 10 records
+2026-01-13 13:25:40,593 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 15:09:34,992 INFO Found 33 news files. Consolidating...
+2026-01-13 15:09:35,006 INFO Total records before cleaning: 330
+2026-01-13 15:09:35,048 INFO Deduplication complete: 330 -> 10 records
+2026-01-13 15:09:35,066 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 15:10:09,527 INFO Found 34 news files. Consolidating...
+2026-01-13 15:10:09,540 INFO Total records before cleaning: 340
+2026-01-13 15:10:09,583 INFO Deduplication complete: 340 -> 10 records
+2026-01-13 15:10:09,601 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 15:12:24,049 INFO Found 35 news files. Consolidating...
+2026-01-13 15:12:24,064 INFO Total records before cleaning: 350
+2026-01-13 15:12:24,109 INFO Deduplication complete: 350 -> 10 records
+2026-01-13 15:12:24,124 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 16:22:32,231 INFO Found 36 news files. Consolidating...
+2026-01-13 16:22:32,246 INFO Total records before cleaning: 360
+2026-01-13 16:22:32,292 INFO Deduplication complete: 360 -> 10 records
+2026-01-13 16:22:32,310 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 17:01:26,592 INFO Found 37 news files. Consolidating...
+2026-01-13 17:01:26,607 INFO Total records before cleaning: 370
+2026-01-13 17:01:26,653 INFO Deduplication complete: 370 -> 10 records
+2026-01-13 17:01:26,672 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 17:12:26,544 INFO Found 38 news files. Consolidating...
+2026-01-13 17:12:26,560 INFO Total records before cleaning: 380
+2026-01-13 17:12:26,606 INFO Deduplication complete: 380 -> 10 records
+2026-01-13 17:12:26,624 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet
+2026-01-13 17:14:14,888 INFO Found 39 news files. Consolidating...
+2026-01-13 17:14:14,905 INFO Total records before cleaning: 390
+2026-01-13 17:14:14,953 INFO Deduplication complete: 390 -> 10 records
+2026-01-13 17:14:14,971 INFO Saved consolidated silver news to data/silver/news/news_silver.parquet

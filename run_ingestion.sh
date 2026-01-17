@@ -34,6 +34,10 @@ python3 src/processing/silver_social.py
 echo "[7/7] Running Gold Layer Aggregation..."
 python3 src/processing/gold_aggregates.py
 
+echo "[8/8] Running Predictive Modeling & Analysis..."
+python3 src/modeling/forecasting.py
+python3 src/modeling/clustering.py
+
 echo "============================================"
 echo "Pipeline Finished: $(date)"
 echo "============================================"
