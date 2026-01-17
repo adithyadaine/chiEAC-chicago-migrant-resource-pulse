@@ -15,6 +15,9 @@ This project follows the **Medallion Architecture** pattern to organize data han
 ## 🛠 Tech Stack
 - **Languages**: Python 3.10+
 - **Data Processing**: Pandas, NumPy, PyArrow
+- **Machine Learning**: 
+    - **PyTorch** (LSTM Forecating)
+    - **Scikit-learn** (K-Means Clustering, Linear Regression)
 - **Ingestion**: Requests, BeautifulSoup4, Selenium
 - **Orchestration**: Shell scripting (`run_ingestion.sh`)
 
@@ -26,8 +29,9 @@ This project follows the **Medallion Architecture** pattern to organize data han
 │   └── gold/               # Aggregated metrics (CSV/Parquet)
 ├── docs/                   # Project documentation (Charter, Architecture, Governance)
 ├── src/
-│   ├── ingestion/          # Scripts for fetching raw data
+│   ├── ingestion/          # Scripts for fetching raw data (Gov, News, Social)
 │   ├── processing/         # Scripts for Silver/Gold layer transformations
+│   ├── modeling/           # ★ NEW: Forecasting & Clustering models
 │   └── utils.py            # Shared utilities (logging, timestamping)
 ├── run_ingestion.sh        # Main pipeline entry point
 └── requirements.txt        # Python dependencies
@@ -66,6 +70,17 @@ After running the pipeline, you will find the following analytic datasets in `da
 - **`daily_shelter_stats.csv`**: Total migrant population in shelters by date.
 - **`daily_vendor_spend.csv`**: Total amount spent on vendor services by date.
 - **`daily_media_volume.csv`**: Daily counts of news articles and social media posts (proxy for public discourse volume).
+- **`daily_clusters.csv`**: Daily classification of resource demand (High/Medium/Low) based on population and spend.
+
+## 🔮 Predictive Modeling
+The pipeline now includes an automated modeling stage:
+1.  **Demand Forecasting**:
+    - Uses **LSTM (PyTorch)** and Linear Regression to predict future Shelter Population and Vendor Spend.
+    - Bridged Forecast: Dynamically fills the gap from the last government data release (Dec 2024/Apr 2025) to the present day (Jan 2026) and projects **90 days** into the future.
+    - Plots saved to `docs/images/`.
+2.  **Clustering Analysis**:
+    - Uses **K-Means** to segment days into operational categories (e.g., "High Strain Days").
+    - Results visualized in `docs/images/clustering_results.png`.
 
 ## 🔒 Governance & Ethics
 This project adheres to strict ethical guidelines:
