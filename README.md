@@ -72,6 +72,17 @@ To launch the interactive Streamlit dashboard:
 ./run_dashboard.sh
 ```
 
+## Interactive Dashboard Features
+The new **Research Interface** (Week 5) provides a comprehensive view of the data pipeline:
+
+1.  **Overview**: High-level KPIs including current shelter population and total vendor spend.
+2.  **Population Analysis**: Interactive time-series trends of migrant population across all shelters.
+3.  **Financial Analysis**: Breakdown of daily vendor spending to track resource allocation.
+4.  **Forecasting**: Visualizes the **LSTM & Linear Regression** models, projecting demand 90 days into the future.
+5.  **Crisis Pulse**: Displays daily cluster classifications (High/Medium/Low Strain) to identify critical operational periods.
+6.  **Data Export**: Provides direct download access to the processed Gold Layer datasets (Shelter, Spend, Clusters).
+
+
 ## Data Outputs (Gold Layer)
 After running the pipeline, you will find the following analytic datasets in `data/gold/`:
 - **`daily_shelter_stats.csv`**: Total migrant population in shelters by date.
