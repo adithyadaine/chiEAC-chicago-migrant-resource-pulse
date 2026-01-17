@@ -1,9 +1,9 @@
 # Chicago Migrant Resource Pulse
 
-## 🚀 Mission
+## Mission
 The **Chicago Migrant Resource Pulse** is a data engineering initiative designed to aggregate, process, and visualize real-time information regarding migrant resources in Chicago. By unifying data from disparate sources—public government datasets, news outlets, and social media—we aim to provide a comprehensive "pulse" on shelter availability, aid distribution, and public sentiment to empower decision-makers and NGOs.
 
-## 🏗 Data Architecture
+## Data Architecture
 This project follows the **Medallion Architecture** pattern to organize data handling:
 
 | Layer | Description | Format |
@@ -12,7 +12,7 @@ This project follows the **Medallion Architecture** pattern to organize data han
 | **Silver** | **Cleaned & Standardized**: Deduplicated data with type casting, date standardization, and **PII removal** for privacy compliance. | Parquet |
 | **Gold** | **Aggregated & Curated**: Business-level metrics and time-series data ready for dashboards and modeling. | CSV & Parquet |
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Languages**: Python 3.10+
 - **Data Processing**: Pandas, NumPy, PyArrow
 - **Machine Learning**: 
@@ -21,7 +21,7 @@ This project follows the **Medallion Architecture** pattern to organize data han
 - **Ingestion**: Requests, BeautifulSoup4, Selenium
 - **Orchestration**: Shell scripting (`run_ingestion.sh`)
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── data/                   # Data Lake (Local)
 │   ├── bronze/             # Raw data from scrapers/APIs
@@ -37,9 +37,9 @@ This project follows the **Medallion Architecture** pattern to organize data han
 └── requirements.txt        # Python dependencies
 ```
 
-## ⚡️ Quick Start
+## Quick Start
 
-### 1. Prerequisites
+### Prerequisites
 - Python 3.10 or higher
 - Chrome (for Selenium-based scrapers)
 
@@ -65,14 +65,14 @@ The `run_ingestion.sh` script orchestrates the entire workflow:
 ./run_ingestion.sh
 ```
 
-## 📊 Data Outputs (Gold Layer)
+## Data Outputs (Gold Layer)
 After running the pipeline, you will find the following analytic datasets in `data/gold/`:
 - **`daily_shelter_stats.csv`**: Total migrant population in shelters by date.
 - **`daily_vendor_spend.csv`**: Total amount spent on vendor services by date.
 - **`daily_media_volume.csv`**: Daily counts of news articles and social media posts (proxy for public discourse volume).
 - **`daily_clusters.csv`**: Daily classification of resource demand (High/Medium/Low) based on population and spend.
 
-## 🔮 Predictive Modeling
+## Predictive Modeling
 The pipeline now includes an automated modeling stage:
 1.  **Demand Forecasting**:
     - Uses **LSTM (PyTorch)** and Linear Regression to predict future Shelter Population and Vendor Spend.
@@ -82,7 +82,7 @@ The pipeline now includes an automated modeling stage:
     - Uses **K-Means** to segment days into operational categories (e.g., "High Strain Days").
     - Results visualized in `docs/images/clustering_results.png`.
 
-## 🔒 Governance & Ethics
+## Governance & Ethics
 This project adheres to strict ethical guidelines:
 - **Privacy First**: Personally Identifiable Information (PII) is stripped at the Silver layer.
 - **Aggregated Reporting**: Public outputs are aggregated to prevent re-identification.
