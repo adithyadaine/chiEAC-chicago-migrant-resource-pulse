@@ -65,6 +65,13 @@ The `run_ingestion.sh` script orchestrates the entire workflow:
 ./run_ingestion.sh
 ```
 
+### 4. Running the Dashboard (Week 5)
+To launch the interactive Streamlit dashboard:
+
+```bash
+./run_dashboard.sh
+```
+
 ## Data Outputs (Gold Layer)
 After running the pipeline, you will find the following analytic datasets in `data/gold/`:
 - **`daily_shelter_stats.csv`**: Total migrant population in shelters by date.
