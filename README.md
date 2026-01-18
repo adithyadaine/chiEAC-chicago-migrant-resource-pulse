@@ -68,6 +68,9 @@ The `run_ingestion.sh` script orchestrates the entire workflow:
 ./run_ingestion.sh
 ```
 
+### 3b. Automated Pipeline (GitHub Actions)
+A daily job is configured in `.github/workflows/daily_update.yml` to run the ingestion pipeline every day at **6:00 AM CST** and auto-update the dashboard.
+
 ### 4. Running the Dashboard (Week 5)
 To launch the interactive Streamlit dashboard:
 
