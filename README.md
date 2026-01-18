@@ -1,5 +1,8 @@
 # Chicago Migrant Resource Pulse
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chieac-chicago-migrant-resource-pulse.streamlit.app/)
+
+
 ## Mission
 The **Chicago Migrant Resource Pulse** is a data engineering initiative designed to aggregate, process, and visualize real-time information regarding migrant resources in Chicago. By unifying data from disparate sources—public government datasets, news outlets, and social media—we aim to provide a comprehensive "pulse" on shelter availability, aid distribution, and public sentiment to empower decision-makers and NGOs.
 
