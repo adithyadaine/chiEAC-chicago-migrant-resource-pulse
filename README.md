@@ -6,6 +6,10 @@
 ## Mission
 The **Chicago Migrant Resource Pulse** is a data engineering initiative designed to aggregate, process, and visualize real-time information regarding migrant resources in Chicago. By unifying data from disparate sources—public government datasets, news outlets, and social media—we aim to provide a comprehensive "pulse" on shelter availability, aid distribution, and public sentiment to empower decision-makers and NGOs.
 
+
+> [!IMPORTANT]
+> **Data Context**: Official government reporting on this dataset ceased in **December 2024**. To address this transparency gap, this project utilizes a **Forecasting Module** (Week 4) to scientifically project resource needs through 2026. Trends in the dashboard beyond Dec 2024 are model-driven estimates to demonstrate the continued crisis state.
+
 ## Data Architecture
 This project follows the **Medallion Architecture** pattern to organize data handling:
 
@@ -99,8 +103,8 @@ After running the pipeline, you will find the following analytic datasets in `da
 ## Predictive Modeling
 The pipeline now includes an automated modeling stage:
 1.  **Demand Forecasting**:
-    - Uses **LSTM (PyTorch)** and Linear Regression to predict future Shelter Population and Vendor Spend.
-    - Bridged Forecast: Dynamically fills the gap from the last government data release (Dec 2024/Apr 2025) to the present day (Jan 2026) and projects **90 days** into the future.
+    - **Bridging the Transparency Gap**: With official data dark since Dec 2024, our **LSTM (PyTorch)** models provide the *only* available visibility into 2025-2026 trends.
+    - **Methodology**: Models are trained on verified 2023-2024 data to project Shelter Population and Vendor Spend 90 days into the future.
     - Plots saved to `docs/images/`.
 2.  **Clustering Analysis**:
     - Uses **K-Means** to segment days into operational categories (e.g., "High Strain Days").

@@ -27,6 +27,8 @@ if mode == "Overview":
     ### Key Metrics
     """)
     
+    st.warning("⚠️ **Data Notice**: Official City of Chicago reporting for this dataset ceased in **December 2024**. Recent trends may be based on predictive modeling.")
+    
     shelter_df = load_shelter_data()
     spend_df = load_spend_data()
     
@@ -64,6 +66,7 @@ elif mode == "Financial Analysis":
 
 elif mode == "Forecasting":
     st.header("Predictive Forecasts")
+    st.info("ℹ️ **Transparency Bridge**: Due to the government data blackout (post-Dec 2024), these **LSTM Projections** provide the primary insight into current resource demands.")
     st.markdown("Here we will visualize the LSTM and Linear Regression forecasts generated in Week 4.")
     # Placeholder for loading the images generated in Week 4
     
