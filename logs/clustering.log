@@ -80,3 +80,31 @@ cluster
 2                 44807.0   1037556.95         0.0           0.0
 2026-01-13 17:14:20,393 INFO Clustering plot saved to docs/images/clustering_results.png
 2026-01-13 17:14:20,394 INFO Clustered data saved to data/gold/daily_clusters.csv
+2026-01-19 10:11:47,302 INFO Loading data for clustering...
+2026-01-19 10:11:47,498 INFO Running K-Means with k=3...
+2026-01-19 10:11:47,532 INFO Cluster Centers (Scaled):
+2026-01-19 10:11:47,532 INFO [[ 0.48333913 -0.39682588  0.          0.        ]
+ [-1.58430505 -0.26428778  0.          0.        ]
+ [ 0.40253314  1.78395421  0.          0.        ]]
+2026-01-19 10:11:47,535 INFO Cluster Summaries (Mean Values):
+2026-01-19 10:11:47,535 INFO          total_population   total_spend  news_count  social_count
+cluster                                                          
+0           282879.997041  1.714672e+06         0.0           0.0
+1           166771.527559  3.848026e+06         0.0           0.0
+2           278342.340426  3.681685e+07         0.0           0.0
+2026-01-19 10:11:47,824 INFO Clustering plot saved to docs/images/clustering_results.png
+2026-01-19 10:11:47,828 INFO Clustered data saved to data/gold/daily_clusters.csv
+2026-01-19 10:16:09,551 INFO Loading data for clustering...
+2026-01-19 10:16:09,685 INFO Running K-Means with k=3...
+2026-01-19 10:16:09,717 INFO Cluster Centers (Scaled):
+2026-01-19 10:16:09,718 INFO [[ 0.48281528 -0.42876513  0.          0.        ]
+ [-1.58430505 -0.25862164  0.          0.        ]
+ [ 0.40985035  1.7303585   0.          0.        ]]
+2026-01-19 10:16:09,720 INFO Cluster Summaries (Mean Values):
+2026-01-19 10:16:09,720 INFO          total_population   total_spend  news_count  social_count
+cluster                                                          
+0           344007.462236  1.801992e+06         0.0           0.0
+1           202830.236220  5.387237e+06         0.0           0.0
+2           339024.207921  4.729880e+07         0.0           0.0
+2026-01-19 10:16:09,959 INFO Clustering plot saved to docs/images/clustering_results.png
+2026-01-19 10:16:09,961 INFO Clustered data saved to data/gold/daily_clusters.csv

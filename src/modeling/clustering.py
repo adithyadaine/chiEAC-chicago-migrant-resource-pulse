@@ -31,14 +31,24 @@ def run_clustering():
     spend_df = pd.read_parquet(spend_file)
     
     # Merge
-    df = pd.merge(shelter_df, spend_df, on='date', how='inner') # Inner join to have all features
+    # FIX: Use outer join to keep all days. 
+    # Shelter pop is continuous (ffill), Spend is sparse (fillna 0).
+    df = pd.merge(shelter_df, spend_df, on='date', how='outer')
+    df = df.sort_values('date')
+    
+    # Fill missing values
+    df['total_population'] = df['total_population'].ffill().bfill() # Assume stable population
+    df['total_spend'] = df['total_spend'].fillna(0) # Assume no invoice = 0 spend
     
     if os.path.exists(media_file):
         media_df = pd.read_parquet(media_file)
         df = pd.merge(df, media_df, on='date', how='left').fillna(0)
     
+    # Drop rows that might still be empty if any
+    df = df.dropna(subset=['total_population'])
+    
     if df.empty:
-        logger.warning("Merged dataframe is empty, creating dummy data for demonstration if needed, or exiting.")
+        logger.warning("Merged dataframe is empty after outer join.")
         return
 
     # Features for clustering
