@@ -82,8 +82,25 @@ elif mode == "Crisis Pulse":
     st.header("Crisis Severity Clustering")
     df = load_cluster_data()
     if not df.empty:
+        # Create interactive scatter plot
+        fig = px.scatter(
+            df,
+            x="total_population",
+            y="total_spend",
+            color="cluster",
+            title="Crisis Severity Clusters: Population vs. Spend",
+            labels={
+                "total_population": "Total Shelter Population",
+                "total_spend": "Daily Vendor Spend ($)",
+                "cluster": "Crisis Cluster"
+            },
+            hover_data=["date"],
+            color_continuous_scale=px.colors.sequential.Viridis
+        )
+        st.plotly_chart(fig, use_container_width=True)
+        
+        st.subheader("Recent Data")
         st.dataframe(df.tail(10))
-        st.markdown("**(Visualization of clustering categories to be added)**")
     else:
         st.warning("No clustering data available.")
 
