@@ -110,6 +110,10 @@ The pipeline now includes an automated modeling stage:
     - Uses **K-Means** to segment days into operational categories (e.g., "High Strain Days").
     - Results visualized in `docs/images/clustering_results.png`.
 
+## Technical Report (Week 6)
+A comprehensive academic paper detailing the methodology, architecture, and modeling results of this project is available:
+- 📄 **[Read the Academic Paper](docs/academic_paper.md)**
+
 ## Governance & Ethics
 This project adheres to strict ethical guidelines:
 - **Privacy First**: Personally Identifiable Information (PII) is stripped at the Silver layer.
