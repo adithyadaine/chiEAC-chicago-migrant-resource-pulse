@@ -108,3 +108,17 @@ cluster
 2           339024.207921  4.729880e+07         0.0           0.0
 2026-01-19 10:16:09,959 INFO Clustering plot saved to docs/images/clustering_results.png
 2026-01-19 10:16:09,961 INFO Clustered data saved to data/gold/daily_clusters.csv
+2026-02-02 20:32:55,740 INFO Loading data for clustering...
+2026-02-02 20:32:55,823 INFO Running K-Means with k=3...
+2026-02-02 20:32:55,857 INFO Cluster Centers (Scaled):
+2026-02-02 20:32:55,857 INFO [[-1.59223089 -0.22638749  0.          0.        ]
+ [ 0.36655948  1.99077603  0.          0.        ]
+ [ 0.48627616 -0.39059882  0.          0.        ]]
+2026-02-02 20:32:55,859 INFO Cluster Summaries (Mean Values):
+2026-02-02 20:32:55,859 INFO          total_population   total_spend  news_count  social_count
+cluster                                                          
+0           247242.023810  1.270315e+07         0.0           0.0
+1           410749.277108  1.064840e+08         0.0           0.0
+2           420742.457143  5.757398e+06         0.0           0.0
+2026-02-02 20:32:56,048 INFO Clustering plot saved to docs/images/clustering_results.png
+2026-02-02 20:32:56,051 INFO Clustered data saved to data/gold/daily_clusters.csv

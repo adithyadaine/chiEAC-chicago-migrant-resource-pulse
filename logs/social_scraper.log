@@ -505,3 +505,69 @@ Stacktrace:
 2026-01-13 17:13:54,134 INFO Trying https://nitter.poast.org for @FoodDepository...
 2026-01-13 17:13:55,124 INFO Success! Found 6 tweets on https://nitter.poast.org
 2026-01-13 17:13:55,274 INFO Saved 21 tweets to data/bronze/social/nitter_batch_20260113171355.csv
+2026-02-02 20:31:51,123 INFO Starting Social Media Scraper (Multi-Instance Nitter)...
+2026-02-02 20:31:53,101 INFO Trying https://nitter.privacydev.net for @ChiHomeless...
+2026-02-02 20:31:53,231 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+0   chromedriver                        0x000000010058afd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x00000001005833ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010006683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010005ea00 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000100051120 cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100052c28 cxxbridge1$string$len + 12072
+6   chromedriver                        0x000000010005158c cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100050d34 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000100050a60 cxxbridge1$string$len + 3424
+9   chromedriver                        0x000000010004e624 chromedriver + 222756
+10  chromedriver                        0x000000010004f0f0 chromedriver + 225520
+11  chromedriver                        0x0000000100069d30 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x00000001000efac8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636812
+13  chromedriver                        0x00000001000eefdc _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634016
+14  chromedriver                        0x00000001000a406c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326960
+15  chromedriver                        0x00000001005495dc cxxbridge1$str$ptr + 2826684
+16  chromedriver                        0x000000010054cd1c cxxbridge1$str$ptr + 2840828
+17  chromedriver                        0x000000010052ebec cxxbridge1$str$ptr + 2717644
+18  chromedriver                        0x000000010054d5a0 cxxbridge1$str$ptr + 2843008
+19  chromedriver                        0x000000010051ecc4 cxxbridge1$str$ptr + 2652324
+20  chromedriver                        0x0000000100571a9c cxxbridge1$str$ptr + 2991740
+21  chromedriver                        0x0000000100571c18 cxxbridge1$str$ptr + 2992120
+22  chromedriver                        0x0000000100583044 cxxbridge1$str$ptr + 3062820
+23  libsystem_pthread.dylib             0x00000001874f7c08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x00000001874f2ba8 thread_start + 8
+
+2026-02-02 20:31:53,231 INFO Trying https://nitter.poast.org for @ChiHomeless...
+2026-02-02 20:31:58,949 INFO Success! Found 19 tweets on https://nitter.poast.org
+2026-02-02 20:31:59,171 INFO Trying https://nitter.privacydev.net for @FoodDepository...
+2026-02-02 20:31:59,306 WARNING Failed on https://nitter.privacydev.net: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=144.0.7559.110)
+Stacktrace:
+0   chromedriver                        0x000000010058afd4 cxxbridge1$str$ptr + 3095476
+1   chromedriver                        0x00000001005833ec cxxbridge1$str$ptr + 3063756
+2   chromedriver                        0x000000010006683c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75008
+3   chromedriver                        0x000000010005ea00 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 42692
+4   chromedriver                        0x0000000100051120 cxxbridge1$string$len + 5152
+5   chromedriver                        0x0000000100052c28 cxxbridge1$string$len + 12072
+6   chromedriver                        0x000000010005158c cxxbridge1$string$len + 6284
+7   chromedriver                        0x0000000100050d34 cxxbridge1$string$len + 4148
+8   chromedriver                        0x0000000100050a60 cxxbridge1$string$len + 3424
+9   chromedriver                        0x000000010004e624 chromedriver + 222756
+10  chromedriver                        0x000000010004f0f0 chromedriver + 225520
+11  chromedriver                        0x0000000100069d30 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 88564
+12  chromedriver                        0x00000001000efac8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 636812
+13  chromedriver                        0x00000001000eefdc _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 634016
+14  chromedriver                        0x00000001000a406c _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326960
+15  chromedriver                        0x00000001005495dc cxxbridge1$str$ptr + 2826684
+16  chromedriver                        0x000000010054cd1c cxxbridge1$str$ptr + 2840828
+17  chromedriver                        0x000000010052ebec cxxbridge1$str$ptr + 2717644
+18  chromedriver                        0x000000010054d5a0 cxxbridge1$str$ptr + 2843008
+19  chromedriver                        0x000000010051ecc4 cxxbridge1$str$ptr + 2652324
+20  chromedriver                        0x0000000100571a9c cxxbridge1$str$ptr + 2991740
+21  chromedriver                        0x0000000100571c18 cxxbridge1$str$ptr + 2992120
+22  chromedriver                        0x0000000100583044 cxxbridge1$str$ptr + 3062820
+23  libsystem_pthread.dylib             0x00000001874f7c08 _pthread_start + 136
+24  libsystem_pthread.dylib             0x00000001874f2ba8 thread_start + 8
+
+2026-02-02 20:31:59,306 INFO Trying https://nitter.poast.org for @FoodDepository...
+2026-02-02 20:32:00,323 INFO Success! Found 4 tweets on https://nitter.poast.org
+2026-02-02 20:32:00,467 INFO Saved 19 tweets to data/bronze/social/nitter_batch_20260202203200.csv

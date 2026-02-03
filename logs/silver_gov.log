@@ -1436,3 +1436,225 @@
 2026-01-13 17:14:14,497 INFO Saved to data/silver/gov/shelter_census_20260103181154.parquet
 2026-01-13 17:14:14,497 INFO Processing data/bronze/gov/shelter_census_20251227140923.json
 2026-01-13 17:14:14,500 INFO Saved to data/silver/gov/shelter_census_20251227140923.parquet
+2026-02-02 20:32:00,844 INFO Found 55 vendor payment files.
+2026-02-02 20:32:00,844 INFO Processing data/bronze/gov/vendor_payments_20251223141149.json
+2026-02-02 20:32:01,344 INFO Saved to data/silver/gov/vendor_payments_20251223141149.parquet
+2026-02-02 20:32:01,344 INFO Processing data/bronze/gov/vendor_payments_20260110140940.json
+2026-02-02 20:32:01,729 INFO Saved to data/silver/gov/vendor_payments_20260110140940.parquet
+2026-02-02 20:32:01,729 INFO Processing data/bronze/gov/vendor_payments_20260123141729.json
+2026-02-02 20:32:03,471 INFO Saved to data/silver/gov/vendor_payments_20260123141729.parquet
+2026-02-02 20:32:03,471 INFO Processing data/bronze/gov/vendor_payments_20260113162214.json
+2026-02-02 20:32:05,218 INFO Saved to data/silver/gov/vendor_payments_20260113162214.parquet
+2026-02-02 20:32:05,218 INFO Processing data/bronze/gov/vendor_payments_20251226141113.json
+2026-02-02 20:32:05,598 INFO Saved to data/silver/gov/vendor_payments_20251226141113.parquet
+2026-02-02 20:32:05,598 INFO Processing data/bronze/gov/vendor_payments_20260103180014.json
+2026-02-02 20:32:05,977 INFO Saved to data/silver/gov/vendor_payments_20260103180014.parquet
+2026-02-02 20:32:05,977 INFO Processing data/bronze/gov/vendor_payments_20260121142155.json
+2026-02-02 20:32:07,706 INFO Saved to data/silver/gov/vendor_payments_20260121142155.parquet
+2026-02-02 20:32:07,706 INFO Processing data/bronze/gov/vendor_payments_20260103140930.json
+2026-02-02 20:32:08,099 INFO Saved to data/silver/gov/vendor_payments_20260103140930.parquet
+2026-02-02 20:32:08,099 INFO Processing data/bronze/gov/vendor_payments_20260124141152.json
+2026-02-02 20:32:09,843 INFO Saved to data/silver/gov/vendor_payments_20260124141152.parquet
+2026-02-02 20:32:09,843 INFO Processing data/bronze/gov/vendor_payments_20251219173432.json
+2026-02-02 20:32:10,229 INFO Saved to data/silver/gov/vendor_payments_20251219173432.parquet
+2026-02-02 20:32:10,229 INFO Processing data/bronze/gov/vendor_payments_20260113170033.json
+2026-02-02 20:32:11,956 INFO Saved to data/silver/gov/vendor_payments_20260113170033.parquet
+2026-02-02 20:32:11,956 INFO Processing data/bronze/gov/vendor_payments_20251220140916.json
+2026-02-02 20:32:12,342 INFO Saved to data/silver/gov/vendor_payments_20251220140916.parquet
+2026-02-02 20:32:12,342 INFO Processing data/bronze/gov/vendor_payments_20251221140952.json
+2026-02-02 20:32:12,723 INFO Saved to data/silver/gov/vendor_payments_20251221140952.parquet
+2026-02-02 20:32:12,724 INFO Processing data/bronze/gov/vendor_payments_20251229141231.json
+2026-02-02 20:32:13,109 INFO Saved to data/silver/gov/vendor_payments_20251229141231.parquet
+2026-02-02 20:32:13,109 INFO Processing data/bronze/gov/vendor_payments_20260116141436.json
+2026-02-02 20:32:13,494 INFO Saved to data/silver/gov/vendor_payments_20260116141436.parquet
+2026-02-02 20:32:13,494 INFO Processing data/bronze/gov/vendor_payments_20260126142122.json
+2026-02-02 20:32:15,243 INFO Saved to data/silver/gov/vendor_payments_20260126142122.parquet
+2026-02-02 20:32:15,243 INFO Processing data/bronze/gov/vendor_payments_20260128142224.json
+2026-02-02 20:32:16,990 INFO Saved to data/silver/gov/vendor_payments_20260128142224.parquet
+2026-02-02 20:32:16,990 INFO Processing data/bronze/gov/vendor_payments_20260113141544.json
+2026-02-02 20:32:17,379 INFO Saved to data/silver/gov/vendor_payments_20260113141544.parquet
+2026-02-02 20:32:17,380 INFO Processing data/bronze/gov/vendor_payments_20260103181244.json
+2026-02-02 20:32:17,773 INFO Saved to data/silver/gov/vendor_payments_20260103181244.parquet
+2026-02-02 20:32:17,777 INFO Processing data/bronze/gov/vendor_payments_20260202203150.json
+2026-02-02 20:32:19,524 INFO Saved to data/silver/gov/vendor_payments_20260202203150.parquet
+2026-02-02 20:32:19,524 INFO Processing data/bronze/gov/vendor_payments_20260107141421.json
+2026-02-02 20:32:19,918 INFO Saved to data/silver/gov/vendor_payments_20260107141421.parquet
+2026-02-02 20:32:19,918 INFO Processing data/bronze/gov/vendor_payments_20260104092043.json
+2026-02-02 20:32:20,304 INFO Saved to data/silver/gov/vendor_payments_20260104092043.parquet
+2026-02-02 20:32:20,304 INFO Processing data/bronze/gov/vendor_payments_20260113171346.json
+2026-02-02 20:32:22,039 INFO Saved to data/silver/gov/vendor_payments_20260113171346.parquet
+2026-02-02 20:32:22,039 INFO Processing data/bronze/gov/vendor_payments_20260108141542.json
+2026-02-02 20:32:22,427 INFO Saved to data/silver/gov/vendor_payments_20260108141542.parquet
+2026-02-02 20:32:22,427 INFO Processing data/bronze/gov/vendor_payments_20251228141013.json
+2026-02-02 20:32:22,808 INFO Saved to data/silver/gov/vendor_payments_20251228141013.parquet
+2026-02-02 20:32:22,808 INFO Processing data/bronze/gov/vendor_payments_20260113132526.json
+2026-02-02 20:32:23,199 INFO Saved to data/silver/gov/vendor_payments_20260113132526.parquet
+2026-02-02 20:32:23,199 INFO Processing data/bronze/gov/vendor_payments_20260129143310.json
+2026-02-02 20:32:24,945 INFO Saved to data/silver/gov/vendor_payments_20260129143310.parquet
+2026-02-02 20:32:24,949 INFO Processing data/bronze/gov/vendor_payments_20251230141147.json
+2026-02-02 20:32:25,338 INFO Saved to data/silver/gov/vendor_payments_20251230141147.parquet
+2026-02-02 20:32:25,338 INFO Processing data/bronze/gov/vendor_payments_20260114141609.json
+2026-02-02 20:32:25,728 INFO Saved to data/silver/gov/vendor_payments_20260114141609.parquet
+2026-02-02 20:32:25,728 INFO Processing data/bronze/gov/vendor_payments_20260127142236.json
+2026-02-02 20:32:27,470 INFO Saved to data/silver/gov/vendor_payments_20260127142236.parquet
+2026-02-02 20:32:27,470 INFO Processing data/bronze/gov/vendor_payments_20260118141138.json
+2026-02-02 20:32:29,223 INFO Saved to data/silver/gov/vendor_payments_20260118141138.parquet
+2026-02-02 20:32:29,223 INFO Processing data/bronze/gov/vendor_payments_20251227140922.json
+2026-02-02 20:32:29,612 INFO Saved to data/silver/gov/vendor_payments_20251227140922.parquet
+2026-02-02 20:32:29,612 INFO Processing data/bronze/gov/vendor_payments_20260112141555.json
+2026-02-02 20:32:30,001 INFO Saved to data/silver/gov/vendor_payments_20260112141555.parquet
+2026-02-02 20:32:30,001 INFO Processing data/bronze/gov/vendor_payments_20260113102831.json
+2026-02-02 20:32:30,382 INFO Saved to data/silver/gov/vendor_payments_20260113102831.parquet
+2026-02-02 20:32:30,382 INFO Processing data/bronze/gov/vendor_payments_20260115141549.json
+2026-02-02 20:32:30,774 INFO Saved to data/silver/gov/vendor_payments_20260115141549.parquet
+2026-02-02 20:32:30,774 INFO Processing data/bronze/gov/vendor_payments_20260102141121.json
+2026-02-02 20:32:31,153 INFO Saved to data/silver/gov/vendor_payments_20260102141121.parquet
+2026-02-02 20:32:31,153 INFO Processing data/bronze/gov/vendor_payments_20260111151557.json
+2026-02-02 20:32:31,531 INFO Saved to data/silver/gov/vendor_payments_20260111151557.parquet
+2026-02-02 20:32:31,531 INFO Processing data/bronze/gov/vendor_payments_20251222141201.json
+2026-02-02 20:32:31,920 INFO Saved to data/silver/gov/vendor_payments_20251222141201.parquet
+2026-02-02 20:32:31,920 INFO Processing data/bronze/gov/vendor_payments_20260113151208.json
+2026-02-02 20:32:33,693 INFO Saved to data/silver/gov/vendor_payments_20260113151208.parquet
+2026-02-02 20:32:33,694 INFO Processing data/bronze/gov/vendor_payments_20260113103027.json
+2026-02-02 20:32:34,083 INFO Saved to data/silver/gov/vendor_payments_20260113103027.parquet
+2026-02-02 20:32:34,083 INFO Processing data/bronze/gov/vendor_payments_20260105141506.json
+2026-02-02 20:32:34,470 INFO Saved to data/silver/gov/vendor_payments_20260105141506.parquet
+2026-02-02 20:32:34,470 INFO Processing data/bronze/gov/vendor_payments_20260125141206.json
+2026-02-02 20:32:36,215 INFO Saved to data/silver/gov/vendor_payments_20260125141206.parquet
+2026-02-02 20:32:36,222 INFO Processing data/bronze/gov/vendor_payments_20260106141323.json
+2026-02-02 20:32:36,610 INFO Saved to data/silver/gov/vendor_payments_20260106141323.parquet
+2026-02-02 20:32:36,610 INFO Processing data/bronze/gov/vendor_payments_20260109141431.json
+2026-02-02 20:32:36,992 INFO Saved to data/silver/gov/vendor_payments_20260109141431.parquet
+2026-02-02 20:32:36,992 INFO Processing data/bronze/gov/vendor_payments_20260119141951.json
+2026-02-02 20:32:38,757 INFO Saved to data/silver/gov/vendor_payments_20260119141951.parquet
+2026-02-02 20:32:38,757 INFO Processing data/bronze/gov/vendor_payments_20260113171158.json
+2026-02-02 20:32:40,481 INFO Saved to data/silver/gov/vendor_payments_20260113171158.parquet
+2026-02-02 20:32:40,482 INFO Processing data/bronze/gov/vendor_payments_20260103181153.json
+2026-02-02 20:32:40,862 INFO Saved to data/silver/gov/vendor_payments_20260103181153.parquet
+2026-02-02 20:32:40,862 INFO Processing data/bronze/gov/vendor_payments_20260101141037.json
+2026-02-02 20:32:41,245 INFO Saved to data/silver/gov/vendor_payments_20260101141037.parquet
+2026-02-02 20:32:41,245 INFO Processing data/bronze/gov/vendor_payments_20251225141036.json
+2026-02-02 20:32:41,626 INFO Saved to data/silver/gov/vendor_payments_20251225141036.parquet
+2026-02-02 20:32:41,626 INFO Processing data/bronze/gov/vendor_payments_20260111140951.json
+2026-02-02 20:32:42,010 INFO Saved to data/silver/gov/vendor_payments_20260111140951.parquet
+2026-02-02 20:32:42,015 INFO Processing data/bronze/gov/vendor_payments_20260120142309.json
+2026-02-02 20:32:43,767 INFO Saved to data/silver/gov/vendor_payments_20260120142309.parquet
+2026-02-02 20:32:43,767 INFO Processing data/bronze/gov/vendor_payments_20251224141049.json
+2026-02-02 20:32:44,148 INFO Saved to data/silver/gov/vendor_payments_20251224141049.parquet
+2026-02-02 20:32:44,148 INFO Processing data/bronze/gov/vendor_payments_20251231141057.json
+2026-02-02 20:32:44,544 INFO Saved to data/silver/gov/vendor_payments_20251231141057.parquet
+2026-02-02 20:32:44,544 INFO Processing data/bronze/gov/vendor_payments_20260104140935.json
+2026-02-02 20:32:44,924 INFO Saved to data/silver/gov/vendor_payments_20260104140935.parquet
+2026-02-02 20:32:44,924 INFO Processing data/bronze/gov/vendor_payments_20260117141007.json
+2026-02-02 20:32:45,306 INFO Saved to data/silver/gov/vendor_payments_20260117141007.parquet
+2026-02-02 20:32:45,306 INFO Found 55 shelter census files.
+2026-02-02 20:32:45,306 INFO Processing data/bronze/gov/shelter_census_20260113141544.json
+2026-02-02 20:32:45,316 INFO Saved to data/silver/gov/shelter_census_20260113141544.parquet
+2026-02-02 20:32:45,316 INFO Processing data/bronze/gov/shelter_census_20260102141122.json
+2026-02-02 20:32:45,321 INFO Saved to data/silver/gov/shelter_census_20260102141122.parquet
+2026-02-02 20:32:45,321 INFO Processing data/bronze/gov/shelter_census_20260202203150.json
+2026-02-02 20:32:45,329 INFO Saved to data/silver/gov/shelter_census_20260202203150.parquet
+2026-02-02 20:32:45,329 INFO Processing data/bronze/gov/shelter_census_20260115141550.json
+2026-02-02 20:32:45,334 INFO Saved to data/silver/gov/shelter_census_20260115141550.parquet
+2026-02-02 20:32:45,334 INFO Processing data/bronze/gov/shelter_census_20260116141436.json
+2026-02-02 20:32:45,340 INFO Saved to data/silver/gov/shelter_census_20260116141436.parquet
+2026-02-02 20:32:45,340 INFO Processing data/bronze/gov/shelter_census_20260103181248.json
+2026-02-02 20:32:45,345 INFO Saved to data/silver/gov/shelter_census_20260103181248.parquet
+2026-02-02 20:32:45,345 INFO Processing data/bronze/gov/shelter_census_20260108141542.json
+2026-02-02 20:32:45,350 INFO Saved to data/silver/gov/shelter_census_20260108141542.parquet
+2026-02-02 20:32:45,350 INFO Processing data/bronze/gov/shelter_census_20260113171346.json
+2026-02-02 20:32:45,355 INFO Saved to data/silver/gov/shelter_census_20260113171346.parquet
+2026-02-02 20:32:45,355 INFO Processing data/bronze/gov/shelter_census_20251226141114.json
+2026-02-02 20:32:45,360 INFO Saved to data/silver/gov/shelter_census_20251226141114.parquet
+2026-02-02 20:32:45,360 INFO Processing data/bronze/gov/shelter_census_20251228141013.json
+2026-02-02 20:32:45,364 INFO Saved to data/silver/gov/shelter_census_20251228141013.parquet
+2026-02-02 20:32:45,364 INFO Processing data/bronze/gov/shelter_census_20260126142123.json
+2026-02-02 20:32:45,369 INFO Saved to data/silver/gov/shelter_census_20260126142123.parquet
+2026-02-02 20:32:45,369 INFO Processing data/bronze/gov/shelter_census_20260128142225.json
+2026-02-02 20:32:45,374 INFO Saved to data/silver/gov/shelter_census_20260128142225.parquet
+2026-02-02 20:32:45,374 INFO Processing data/bronze/gov/shelter_census_20260112141556.json
+2026-02-02 20:32:45,380 INFO Saved to data/silver/gov/shelter_census_20260112141556.parquet
+2026-02-02 20:32:45,380 INFO Processing data/bronze/gov/shelter_census_20260123141729.json
+2026-02-02 20:32:45,385 INFO Saved to data/silver/gov/shelter_census_20260123141729.parquet
+2026-02-02 20:32:45,385 INFO Processing data/bronze/gov/shelter_census_20260110140940.json
+2026-02-02 20:32:45,391 INFO Saved to data/silver/gov/shelter_census_20260110140940.parquet
+2026-02-02 20:32:45,391 INFO Processing data/bronze/gov/shelter_census_20260113162214.json
+2026-02-02 20:32:45,396 INFO Saved to data/silver/gov/shelter_census_20260113162214.parquet
+2026-02-02 20:32:45,396 INFO Processing data/bronze/gov/shelter_census_20260104140936.json
+2026-02-02 20:32:45,400 INFO Saved to data/silver/gov/shelter_census_20260104140936.parquet
+2026-02-02 20:32:45,401 INFO Processing data/bronze/gov/shelter_census_20260117141008.json
+2026-02-02 20:32:45,405 INFO Saved to data/silver/gov/shelter_census_20260117141008.parquet
+2026-02-02 20:32:45,405 INFO Processing data/bronze/gov/shelter_census_20260118141147.json
+2026-02-02 20:32:45,410 INFO Saved to data/silver/gov/shelter_census_20260118141147.parquet
+2026-02-02 20:32:45,410 INFO Processing data/bronze/gov/shelter_census_20260124141153.json
+2026-02-02 20:32:45,416 INFO Saved to data/silver/gov/shelter_census_20260124141153.parquet
+2026-02-02 20:32:45,416 INFO Processing data/bronze/gov/shelter_census_20260104092044.json
+2026-02-02 20:32:45,421 INFO Saved to data/silver/gov/shelter_census_20260104092044.parquet
+2026-02-02 20:32:45,421 INFO Processing data/bronze/gov/shelter_census_20251221140953.json
+2026-02-02 20:32:45,426 INFO Saved to data/silver/gov/shelter_census_20251221140953.parquet
+2026-02-02 20:32:45,426 INFO Processing data/bronze/gov/shelter_census_20260103140931.json
+2026-02-02 20:32:45,431 INFO Saved to data/silver/gov/shelter_census_20260103140931.parquet
+2026-02-02 20:32:45,431 INFO Processing data/bronze/gov/shelter_census_20260103180014.json
+2026-02-02 20:32:45,436 INFO Saved to data/silver/gov/shelter_census_20260103180014.parquet
+2026-02-02 20:32:45,436 INFO Processing data/bronze/gov/shelter_census_20251229141231.json
+2026-02-02 20:32:45,441 INFO Saved to data/silver/gov/shelter_census_20251229141231.parquet
+2026-02-02 20:32:45,441 INFO Processing data/bronze/gov/shelter_census_20251220140916.json
+2026-02-02 20:32:45,447 INFO Saved to data/silver/gov/shelter_census_20251220140916.parquet
+2026-02-02 20:32:45,447 INFO Processing data/bronze/gov/shelter_census_20260113170033.json
+2026-02-02 20:32:45,452 INFO Saved to data/silver/gov/shelter_census_20260113170033.parquet
+2026-02-02 20:32:45,452 INFO Processing data/bronze/gov/shelter_census_20251219173432.json
+2026-02-02 20:32:45,457 INFO Saved to data/silver/gov/shelter_census_20251219173432.parquet
+2026-02-02 20:32:45,457 INFO Processing data/bronze/gov/shelter_census_20260119141952.json
+2026-02-02 20:32:45,462 INFO Saved to data/silver/gov/shelter_census_20260119141952.parquet
+2026-02-02 20:32:45,462 INFO Processing data/bronze/gov/shelter_census_20260113103028.json
+2026-02-02 20:32:45,467 INFO Saved to data/silver/gov/shelter_census_20260113103028.parquet
+2026-02-02 20:32:45,467 INFO Processing data/bronze/gov/shelter_census_20260111140952.json
+2026-02-02 20:32:45,473 INFO Saved to data/silver/gov/shelter_census_20260111140952.parquet
+2026-02-02 20:32:45,473 INFO Processing data/bronze/gov/shelter_census_20260101141037.json
+2026-02-02 20:32:45,477 INFO Saved to data/silver/gov/shelter_census_20260101141037.parquet
+2026-02-02 20:32:45,478 INFO Processing data/bronze/gov/shelter_census_20260120142309.json
+2026-02-02 20:32:45,483 INFO Saved to data/silver/gov/shelter_census_20260120142309.parquet
+2026-02-02 20:32:45,483 INFO Processing data/bronze/gov/shelter_census_20260121142156.json
+2026-02-02 20:32:45,499 INFO Saved to data/silver/gov/shelter_census_20260121142156.parquet
+2026-02-02 20:32:45,500 INFO Processing data/bronze/gov/shelter_census_20260105141506.json
+2026-02-02 20:32:45,509 INFO Saved to data/silver/gov/shelter_census_20260105141506.parquet
+2026-02-02 20:32:45,509 INFO Processing data/bronze/gov/shelter_census_20260109141431.json
+2026-02-02 20:32:45,519 INFO Saved to data/silver/gov/shelter_census_20260109141431.parquet
+2026-02-02 20:32:45,519 INFO Processing data/bronze/gov/shelter_census_20260113171158.json
+2026-02-02 20:32:45,524 INFO Saved to data/silver/gov/shelter_census_20260113171158.parquet
+2026-02-02 20:32:45,524 INFO Processing data/bronze/gov/shelter_census_20260106141323.json
+2026-02-02 20:32:45,529 INFO Saved to data/silver/gov/shelter_census_20260106141323.parquet
+2026-02-02 20:32:45,529 INFO Processing data/bronze/gov/shelter_census_20260125141207.json
+2026-02-02 20:32:45,534 INFO Saved to data/silver/gov/shelter_census_20260125141207.parquet
+2026-02-02 20:32:45,534 INFO Processing data/bronze/gov/shelter_census_20251231141057.json
+2026-02-02 20:32:45,540 INFO Saved to data/silver/gov/shelter_census_20251231141057.parquet
+2026-02-02 20:32:45,540 INFO Processing data/bronze/gov/shelter_census_20251224141049.json
+2026-02-02 20:32:45,546 INFO Saved to data/silver/gov/shelter_census_20251224141049.parquet
+2026-02-02 20:32:45,546 INFO Processing data/bronze/gov/shelter_census_20251223141150.json
+2026-02-02 20:32:45,551 INFO Saved to data/silver/gov/shelter_census_20251223141150.parquet
+2026-02-02 20:32:45,551 INFO Processing data/bronze/gov/shelter_census_20251225141037.json
+2026-02-02 20:32:45,556 INFO Saved to data/silver/gov/shelter_census_20251225141037.parquet
+2026-02-02 20:32:45,556 INFO Processing data/bronze/gov/shelter_census_20260114141609.json
+2026-02-02 20:32:45,561 INFO Saved to data/silver/gov/shelter_census_20260114141609.parquet
+2026-02-02 20:32:45,561 INFO Processing data/bronze/gov/shelter_census_20260107141422.json
+2026-02-02 20:32:45,567 INFO Saved to data/silver/gov/shelter_census_20260107141422.parquet
+2026-02-02 20:32:45,567 INFO Processing data/bronze/gov/shelter_census_20260113102831.json
+2026-02-02 20:32:45,573 INFO Saved to data/silver/gov/shelter_census_20260113102831.parquet
+2026-02-02 20:32:45,573 INFO Processing data/bronze/gov/shelter_census_20251230141147.json
+2026-02-02 20:32:45,578 INFO Saved to data/silver/gov/shelter_census_20251230141147.parquet
+2026-02-02 20:32:45,578 INFO Processing data/bronze/gov/shelter_census_20260129143310.json
+2026-02-02 20:32:45,583 INFO Saved to data/silver/gov/shelter_census_20260129143310.parquet
+2026-02-02 20:32:45,583 INFO Processing data/bronze/gov/shelter_census_20260113132527.json
+2026-02-02 20:32:45,589 INFO Saved to data/silver/gov/shelter_census_20260113132527.parquet
+2026-02-02 20:32:45,589 INFO Processing data/bronze/gov/shelter_census_20260113151208.json
+2026-02-02 20:32:45,594 INFO Saved to data/silver/gov/shelter_census_20260113151208.parquet
+2026-02-02 20:32:45,594 INFO Processing data/bronze/gov/shelter_census_20251222141201.json
+2026-02-02 20:32:45,599 INFO Saved to data/silver/gov/shelter_census_20251222141201.parquet
+2026-02-02 20:32:45,599 INFO Processing data/bronze/gov/shelter_census_20260111151557.json
+2026-02-02 20:32:45,604 INFO Saved to data/silver/gov/shelter_census_20260111151557.parquet
+2026-02-02 20:32:45,604 INFO Processing data/bronze/gov/shelter_census_20260103181154.json
+2026-02-02 20:32:45,609 INFO Saved to data/silver/gov/shelter_census_20260103181154.parquet
+2026-02-02 20:32:45,609 INFO Processing data/bronze/gov/shelter_census_20260127142237.json
+2026-02-02 20:32:45,614 INFO Saved to data/silver/gov/shelter_census_20260127142237.parquet
+2026-02-02 20:32:45,614 INFO Processing data/bronze/gov/shelter_census_20251227140923.json
+2026-02-02 20:32:45,619 INFO Saved to data/silver/gov/shelter_census_20251227140923.parquet
