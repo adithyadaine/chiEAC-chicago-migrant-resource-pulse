@@ -112,7 +112,13 @@ def create_gold_layer():
             if 'url' in news_df.columns:
                 news_df = news_df.drop_duplicates(subset=['url'], keep='last')
             if not news_df.empty:
-                date_col = next((c for c in news_df.columns if pd.api.types.is_datetime64_any_dtype(news_df[c])), None)
+                # Count by publication date; fall back to scrape date for older rows
+                if 'published_at' in news_df.columns:
+                    news_df['published_at'] = pd.to_datetime(news_df['published_at'], errors='coerce')
+                    news_df['pub_or_scraped'] = news_df['published_at'].fillna(news_df['scraped_at'])
+                    date_col = 'pub_or_scraped'
+                else:
+                    date_col = next((c for c in news_df.columns if pd.api.types.is_datetime64_any_dtype(news_df[c])), None)
                 if date_col:
                     news_df['date_norm'] = news_df[date_col].dt.date
                     news_counts = news_df.groupby('date_norm').size().reset_index(name='news_count')
@@ -131,7 +137,17 @@ def create_gold_layer():
             dedupe_cols = [c for c in ('source', 'content') if c in social_df.columns]
             social_df = social_df.drop_duplicates(subset=dedupe_cols or None, keep='last')
             if not social_df.empty:
-                date_col = next((c for c in social_df.columns if pd.api.types.is_datetime64_any_dtype(social_df[c])), None)
+                # Count by post date when available, else scrape date
+                if 'date' in social_df.columns:
+                    social_df['date'] = social_df['date'].astype(str).str.replace(' · ', ' ', regex=False)
+                for c in ('date', 'scraped_at'):
+                    if c in social_df.columns:
+                        social_df[c] = pd.to_datetime(social_df[c], errors='coerce', utc=True).dt.tz_localize(None)
+                if 'date' in social_df.columns and 'scraped_at' in social_df.columns:
+                    social_df['post_or_scraped'] = social_df['date'].fillna(social_df['scraped_at'])
+                    date_col = 'post_or_scraped'
+                else:
+                    date_col = next((c for c in social_df.columns if pd.api.types.is_datetime64_any_dtype(social_df[c])), None)
                 if date_col:
                      social_df['date_norm'] = social_df[date_col].dt.date
                      social_counts = social_df.groupby('date_norm').size().reset_index(name='social_count')
