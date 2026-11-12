@@ -1,0 +1,24 @@
+metric,value,unit,source
+mission_start,2022-08-31,date,Chicago OIG explainer (2026-07-22)
+mission_end,2024-12-31,date,Chicago OIG explainer (2026-07-22)
+people_received_at_least,46282,people,Chicago OIG explainer (2026-07-22)
+shelters_opened,38,shelters,Chicago OIG explainer (2026-07-22)
+peak_in_shelters_jan_2024_more_than,15000,people,Chicago OIG explainer (2026-07-22)
+total_spending,639654965,USD,Chicago OIG explainer (2026-07-22)
+spending_share_city_corporate_fund,42,percent,Chicago OIG explainer Figure 8
+spending_share_federal_grants,29,percent,Chicago OIG explainer Figure 8
+spending_share_state_grants,23,percent,Chicago OIG explainer Figure 8
+spending_share_county_grants,6,percent,Chicago OIG explainer Figure 8
+spending_city_corporate_fund,269100000,USD,Chicago OIG explainer (as reported; $269.1 million)
+transactions_omitted_from_city_dashboard,50916,USD,Chicago OIG explainer
+top10_vendors_total,622184055,USD,Chicago OIG explainer Figure 10
+vendor_Favorite Healthcare Staffing Inc (staffing),400374308,USD,Chicago OIG explainer Figure 10
+vendor_Equitable Social Solutions LLC (shelter),128986340,USD,Chicago OIG explainer Figure 10
+vendor_Open Kitchens Inc (food),24991350,USD,Chicago OIG explainer Figure 10
+vendor_Seventy-Seven Communities Meal Services LLC (food),21247149,USD,Chicago OIG explainer Figure 10
+vendor_14 Parish LLC (food),15373458,USD,Chicago OIG explainer Figure 10
+vendor_K.L.E.O. Community Family Life Center (shelter),13570971,USD,Chicago OIG explainer Figure 10
+vendor_Britepath Consulting Inc (shelter),6817856,USD,Chicago OIG explainer Figure 10
+vendor_Kaizen Health Inc (transportation),4625489,USD,Chicago OIG explainer Figure 10
+vendor_Laundry Ops LLC (laundry),3105364,USD,Chicago OIG explainer Figure 10
+vendor_YMCA Of Metro Chicago (shelter),3091770,USD,Chicago OIG explainer Figure 10
