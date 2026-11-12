@@ -29,7 +29,10 @@ TARGET_HANDLES = ["@ChiHomeless", "@FoodDepository"]
 
 def setup_driver():
     options = Options()
-    # options.add_argument("--headless") # Disabled for debugging
+    # Headless by default (CI runners have no display). Set SCRAPER_HEADED=1 to debug locally.
+    if os.environ.get("SCRAPER_HEADED") != "1":
+        options.add_argument("--headless=new")
+    options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
