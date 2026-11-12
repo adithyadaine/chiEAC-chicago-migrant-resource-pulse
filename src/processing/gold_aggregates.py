@@ -183,5 +183,31 @@ def create_gold_layer():
     else:
         logger.warning("No media data to aggregate.")
 
+def export_latest_items(limit_news=50, limit_social=50):
+    """Write the newest articles/posts to small Gold CSVs so the dashboard (which only
+    ships Gold files) can show a live headline list."""
+    gold_path = 'data/gold/'
+    news_file = 'data/silver/news/news_silver.parquet'
+    if os.path.exists(news_file):
+        n = pd.read_parquet(news_file)
+        if 'published_at' in n.columns:
+            n['published_at'] = pd.to_datetime(n['published_at'], errors='coerce')
+            n['when'] = n['published_at'].fillna(pd.to_datetime(n['scraped_at'], errors='coerce'))
+        else:
+            n['when'] = pd.to_datetime(n['scraped_at'], errors='coerce')
+        cols = [c for c in ('source', 'headline', 'url', 'when') if c in n.columns]
+        n.sort_values('when', ascending=False).head(limit_news)[cols].to_csv(
+            os.path.join(gold_path, 'latest_news.csv'), index=False)
+        logger.info("Wrote data/gold/latest_news.csv")
+    social_file = 'data/silver/social/social_silver.parquet'
+    if os.path.exists(social_file):
+        s = pd.read_parquet(social_file)
+        s['when'] = pd.to_datetime(s.get('date'), errors='coerce')
+        cols = [c for c in ('source', 'content', 'when') if c in s.columns]
+        s.sort_values('when', ascending=False).head(limit_social)[cols].to_csv(
+            os.path.join(gold_path, 'latest_community.csv'), index=False)
+        logger.info("Wrote data/gold/latest_community.csv")
+
 if __name__ == "__main__":
     create_gold_layer()
+    export_latest_items()
