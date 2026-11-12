@@ -4,7 +4,7 @@
 
 
 ## Mission
-The **Chicago Migrant Resource Pulse** is a data engineering initiative designed to aggregate, process, and visualize information regarding migrant resources in Chicago. By unifying data from disparate sources—public government datasets, news outlets, and social media—we aim to provide a comprehensive "pulse" on shelter availability, aid distribution, and public sentiment to empower decision-makers and NGOs. News and organization updates are collected daily; official government figures are published far less often (see Data Context).
+The **Chicago Migrant Resource Pulse** is a data engineering initiative designed to aggregate, process, and visualize information regarding migrant resources in Chicago. By unifying data from disparate sources—public government datasets, news outlets, and community/nonprofit updates—we aim to provide a comprehensive "pulse" on shelter availability, aid distribution, and public discourse to empower decision-makers and NGOs. News and organization updates are collected daily; official government figures are published far less often (see Data Context).
 
 
 > [!IMPORTANT]
@@ -27,7 +27,7 @@ This project follows the **Medallion Architecture** pattern to organize data han
 - **Machine Learning**: 
     - **PyTorch** (LSTM Forecating)
     - **Scikit-learn** (K-Means Clustering, Linear Regression)
-- **Ingestion**: Requests, BeautifulSoup4, Selenium
+- **Ingestion**: Requests (government APIs and free public RSS/Atom feeds)
 - **Orchestration**: Shell scripting (`run_ingestion.sh`)
 
 ## Project Structure
@@ -50,7 +50,6 @@ This project follows the **Medallion Architecture** pattern to organize data han
 
 ### Prerequisites
 - Python 3.12 (the version used in CI)
-- Chrome (for Selenium-based scrapers)
 
 ### 2. Installation
 It is recommended to use a virtual environment:
@@ -66,7 +65,7 @@ pip install -r requirements.txt
 
 ### 3. Running the Pipeline
 The `run_ingestion.sh` script orchestrates the entire workflow:
-1.  **Ingests** data from configured sources.
+1.  **Ingests** data from configured sources (City data portal API, news RSS feeds, community/nonprofit feeds). The run stops with an error if government or news data is missing; community feeds only warn.
 2.  **Processes** data into the Silver layer (cleaning & PII stripping).
 3.  **Aggregates** metrics into the Gold layer.
 
@@ -89,28 +88,31 @@ To launch the interactive Streamlit dashboard:
 ```
 
 ## Interactive Dashboard Features
-The new **Research Interface** (Week 5) provides a comprehensive view of the data pipeline:
+The **Research Interface** (Week 5) provides the following views:
 
-1.  **Overview**: High-level KPIs including current shelter population and total vendor spend.
-2.  **Population Analysis**: Interactive time-series trends of migrant population across all shelters.
-3.  **Financial Analysis**: Breakdown of daily vendor spending to track resource allocation.
-4.  **Forecasting**: Visualizes the **LSTM & Linear Regression** models, projecting demand 90 days into the future.
-5.  **Crisis Pulse**: Displays daily cluster classifications (High/Medium/Low Strain) to identify critical operational periods.
-6.  **Data Export**: Provides direct download access to the processed Gold Layer datasets (Shelter, Spend, Clusters).
+1.  **Overview**: Latest official count (2026 Point-in-Time), last shelter-census and vendor-spend figures with their dates, and recent news volume.
+2.  **Official 2026 Figures**: Point-in-Time counts 2005-2026 and the Inspector General's new-arrivals mission totals, from `data/reference/`.
+3.  **News & Community**: Daily news/community volume plus the latest headlines and nonprofit posts.
+4.  **Population Analysis**: Time series of the City's shelter census (through Dec 2024).
+5.  **Financial Analysis**: Daily vendor spending (through Apr 2025).
+6.  **Forecasting**: The **LSTM & Linear Regression** model estimates, clearly labelled as estimates.
+7.  **Crisis Pulse**: Daily cluster classifications (High/Medium/Low Strain).
+8.  **Data Export**: Download the Gold Layer datasets (Shelter, Spend, Clusters).
 
 
 ## Data Outputs (Gold Layer)
 After running the pipeline, you will find the following analytic datasets in `data/gold/`:
-- **`daily_shelter_stats.csv`**: Total migrant population in shelters by date.
-- **`daily_vendor_spend.csv`**: Total amount spent on vendor services by date.
-- **`daily_media_volume.csv`**: Daily counts of news articles and social media posts (proxy for public discourse volume).
+- **`daily_shelter_stats.csv`**: Total people in the City's emergency shelters by date, from the City's shelter census (only 19 dates, May 13 to Dec 31, 2024, because that is all the City published).
+- **`daily_vendor_spend.csv`**: Total amount spent on new-arrivals vendor services by invoice date (totals about $639.6M, matching the City's source data and the Inspector General).
+- **`daily_media_volume.csv`**: Daily counts of news articles and community/nonprofit posts (proxy for public discourse volume).
+- **`latest_news.csv`** / **`latest_community.csv`**: The newest headlines and community posts, used by the dashboard's *News & Community* page.
 - **`daily_clusters.csv`**: Daily classification of resource demand (High/Medium/Low) based on population and spend.
 
 ## Predictive Modeling
 The pipeline now includes an automated modeling stage:
 1.  **Demand Forecasting**:
     - **Bridging the Transparency Gap**: With the City's shelter census and vendor-payment data dark since Dec 2024 / Apr 2025, our **LSTM (PyTorch)** models estimate later trends. These are projections. Annual official counts (e.g. the Point-in-Time Count) are available in `data/reference/` and should be used to check them.
-    - **Methodology**: Models are trained on verified 2023-2024 data to project Shelter Population and Vendor Spend 90 days into the future.
+    - **Methodology**: Models are trained on the City's published shelter census (19 dates, May 13 to Dec 31, 2024) and vendor payments (invoices through Apr 24, 2025), and project Shelter Population and Vendor Spend 90 days ahead. The shelter history is very short, so forecasts are rough (the shelter model's error was about 3,000 people in a recent run); treat them as illustrative.
     - Plots saved to `docs/images/`.
 2.  **Clustering Analysis**:
     - Uses **K-Means** to segment days into operational categories (e.g., "High Strain Days").
