@@ -16,7 +16,7 @@ def process_social_data():
     silver_path = 'data/silver/social/'
     os.makedirs(silver_path, exist_ok=True)
     
-    all_files = glob.glob(os.path.join(bronze_path, '*.json'))
+    all_files = glob.glob(os.path.join(bronze_path, '*.json')) + glob.glob(os.path.join(bronze_path, '*.csv'))
     if not all_files:
         logger.info("No social files found.")
         return
@@ -26,7 +26,7 @@ def process_social_data():
     
     for f in all_files:
         try:
-            df = pd.read_json(f)
+            df = pd.read_json(f) if f.endswith('.json') else pd.read_csv(f)
             if not df.empty:
                 dfs.append(df)
         except Exception as e:
@@ -58,6 +58,8 @@ def process_social_data():
         full_df.drop_duplicates(subset=['id'], keep='last', inplace=True)
     elif 'url' in full_df.columns:
         full_df.drop_duplicates(subset=['url'], keep='last', inplace=True)
+    elif {'source', 'content'} <= set(full_df.columns):
+        full_df.drop_duplicates(subset=['source', 'content'], keep='last', inplace=True)
     else:
         full_df.drop_duplicates(inplace=True)
 
