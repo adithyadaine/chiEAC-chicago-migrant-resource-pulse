@@ -17,7 +17,7 @@ def process_gov_data():
     os.makedirs(silver_path, exist_ok=True)
     
     # --- Process Vendor Payments ---
-    payment_files = glob.glob(os.path.join(bronze_path, 'vendor_payments_*.json'))
+    payment_files = sorted(glob.glob(os.path.join(bronze_path, 'vendor_payments_*.json')))[-1:]  # latest full snapshot only
     logger.info(f"Found {len(payment_files)} vendor payment files.")
     
     for file_path in payment_files:
@@ -50,7 +50,7 @@ def process_gov_data():
             logger.error(f"Failed to process {file_path}: {e}")
 
     # --- Process Shelter Census ---
-    census_files = glob.glob(os.path.join(bronze_path, 'shelter_census_*.json'))
+    census_files = sorted(glob.glob(os.path.join(bronze_path, 'shelter_census_*.json')))[-1:]  # latest full snapshot only
     logger.info(f"Found {len(census_files)} shelter census files.")
     
     for file_path in census_files:
