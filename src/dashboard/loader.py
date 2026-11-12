@@ -48,3 +48,42 @@ def load_cluster_data():
     df = pd.read_csv(filepath)
     df['date'] = pd.to_datetime(df['date'])
     return df
+
+REFERENCE_DIR = os.path.join(DATA_DIR, 'reference')
+SILVER_DIR = os.path.join(DATA_DIR, 'silver')
+
+@st.cache_data
+def load_pit_data():
+    """Official Point-in-Time homelessness counts (data/reference)."""
+    filepath = os.path.join(REFERENCE_DIR, 'pit_counts_chicago.csv')
+    if not os.path.exists(filepath):
+        return pd.DataFrame()
+    return pd.read_csv(filepath)
+
+@st.cache_data
+def load_mission_data():
+    """Totals from the Inspector General's new-arrivals mission report (data/reference)."""
+    filepath = os.path.join(REFERENCE_DIR, 'new_arrivals_mission.csv')
+    if not os.path.exists(filepath):
+        return pd.DataFrame()
+    return pd.read_csv(filepath)
+
+@st.cache_data
+def load_news_items():
+    """Latest news articles (Gold: latest_news.csv)."""
+    filepath = os.path.join(GOLD_DIR, 'latest_news.csv')
+    if not os.path.exists(filepath):
+        return pd.DataFrame()
+    df = pd.read_csv(filepath)
+    df['when'] = pd.to_datetime(df['when'], errors='coerce')
+    return df.sort_values('when', ascending=False)
+
+@st.cache_data
+def load_community_items():
+    """Latest community / nonprofit posts (Gold: latest_community.csv)."""
+    filepath = os.path.join(GOLD_DIR, 'latest_community.csv')
+    if not os.path.exists(filepath):
+        return pd.DataFrame()
+    df = pd.read_csv(filepath)
+    df['when'] = pd.to_datetime(df['when'], errors='coerce')
+    return df.sort_values('when', ascending=False)
