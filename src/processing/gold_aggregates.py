@@ -9,6 +9,11 @@ from src.utils import setup_logger
 
 logger = setup_logger('gold_aggregates', 'logs/gold_aggregates.log')
 
+def latest_snapshot(files):
+    """Each gov snapshot is a full re-download of the same dataset, so summing
+    several of them multiplies every figure. Use only the newest one."""
+    return sorted(files)[-1:]
+
 def create_gold_layer():
     silver_gov_path = 'data/silver/gov/'
     silver_news_path = 'data/silver/news/'
@@ -18,7 +23,7 @@ def create_gold_layer():
     
     # --- 1. Daily Shelter Stats ---
     logger.info("Aggregating Shelter Census data...")
-    census_files = glob.glob(os.path.join(silver_gov_path, 'shelter_census_*.parquet'))
+    census_files = latest_snapshot(glob.glob(os.path.join(silver_gov_path, 'shelter_census_*.parquet')))
     if census_files:
         try:
             dfs = [pd.read_parquet(f) for f in census_files]
@@ -48,7 +53,7 @@ def create_gold_layer():
                 # Also save as CSV for sharing (Gold Layer Req)
                 csv_file = os.path.join(gold_path, 'daily_shelter_stats.csv')
                 daily_shelter.to_csv(csv_file, index=False)
-                logger.info(f"Created {out_file} and {csv_file} with {len(daily_shelter)} rows")
+                logger.info(f"Created {out_file} and {csv_file} with {len(daily_shelter)} rows (source: {census_files[0]}; peak day {int(daily_shelter.total_population.max())})")
             else:
                 logger.warning(f"Cols not found in shelter data. Date: {date_col}, Count: {count_col}")
         except Exception as e:
@@ -58,7 +63,7 @@ def create_gold_layer():
 
     # --- 2. Daily Spending ---
     logger.info("Aggregating Vendor Payments data...")
-    payment_files = glob.glob(os.path.join(silver_gov_path, 'vendor_payments_*.parquet'))
+    payment_files = latest_snapshot(glob.glob(os.path.join(silver_gov_path, 'vendor_payments_*.parquet')))
     if payment_files:
         try:
             dfs = [pd.read_parquet(f) for f in payment_files]
@@ -86,7 +91,7 @@ def create_gold_layer():
                  # Also save as CSV for sharing
                  csv_file = os.path.join(gold_path, 'daily_vendor_spend.csv')
                  daily_spend.to_csv(csv_file, index=False)
-                 logger.info(f"Created {out_file} and {csv_file} with {len(daily_spend)} rows")
+                 logger.info(f"Created {out_file} and {csv_file} with {len(daily_spend)} rows (source: {payment_files[0]}; total ${daily_spend.total_spend.sum():,.2f})")
             else:
                 logger.warning(f"Cols not found in vendor data. Date: {date_col}, Amount: {amount_col}")
         except Exception as e:
@@ -104,6 +109,8 @@ def create_gold_layer():
         try:
             dfs = [pd.read_parquet(f) for f in news_files]
             news_df = pd.concat(dfs, ignore_index=True)
+            if 'url' in news_df.columns:
+                news_df = news_df.drop_duplicates(subset=['url'], keep='last')
             if not news_df.empty:
                 date_col = next((c for c in news_df.columns if pd.api.types.is_datetime64_any_dtype(news_df[c])), None)
                 if date_col:
@@ -121,6 +128,8 @@ def create_gold_layer():
         try:
             dfs = [pd.read_parquet(f) for f in social_files]
             social_df = pd.concat(dfs, ignore_index=True)
+            dedupe_cols = [c for c in ('source', 'content') if c in social_df.columns]
+            social_df = social_df.drop_duplicates(subset=dedupe_cols or None, keep='last')
             if not social_df.empty:
                 date_col = next((c for c in social_df.columns if pd.api.types.is_datetime64_any_dtype(social_df[c])), None)
                 if date_col:
