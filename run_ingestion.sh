@@ -32,7 +32,7 @@ for attempt in 1 2 3; do
     [ "$attempt" -lt 3 ] && sleep 60
 done
 
-echo "[3/7] Running Social Media Scraper (Nitter)..."
+echo "[3/7] Running Community Feed Scraper (Bluesky + nonprofit blogs)..."
 python3 src/ingestion/social_scraper.py
 
 # --- Freshness checks ---
