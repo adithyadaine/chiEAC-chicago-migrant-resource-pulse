@@ -7,16 +7,21 @@ from datetime import datetime, timezone
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; ChicagoMigrantResourcePulse research project)'}
 
-# Posts/articles are kept only if they mention one of these topics.
-KEYWORDS = [
-    'migrant', 'asylum', 'newcomer', 'new arrival', 'refugee', 'immigra',
-    'shelter', 'homeless', 'unhoused', 'housing', 'food pantry', 'food bank',
-    'hunger', 'eviction', 'resettle', 'undocumented', 'deportation', 'ice ',
-]
+# Posts/articles are kept only if they mention one of these topics (whole-word matches).
+KEYWORD_RE = re.compile(
+    r"\b(migrants?|asylum|newcomers?|new arrivals?|refugees?|immigra\w*|shelters?|homeless\w*|unhoused|"
+    r"housing insecurity|food pantr\w+|food banks?|hunger|evictions?|resettle\w*|undocumented|deport\w*)\b"
+    r"|\bICE\b",
+    re.IGNORECASE,
+)
 
 def is_relevant(text):
-    t = (text or '').lower() + ' '
-    return any(k in t for k in KEYWORDS)
+    text = text or ''
+    # "ICE" (immigration enforcement) must be uppercase so "ice" / "Justice" never match
+    if KEYWORD_RE.search(text):
+        m = [x for x in KEYWORD_RE.finditer(text) if x.group(0).lower() != 'ice' or x.group(0) == 'ICE']
+        return bool(m)
+    return False
 
 def _strip(tag):
     return tag.split('}', 1)[-1]
